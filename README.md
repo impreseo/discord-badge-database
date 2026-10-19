@@ -105,7 +105,7 @@ Every badge in this dataset is assigned a single strict obtainability status:
 
 ```text
 ================================================================================
-TOTAL CATALOGED BADGE RECORDS        : 157
+TOTAL CATALOGED BADGE RECORDS        : 175
 TOTAL ASSET FILES ON DISK            : 179
 DISCORD API BITWISE FLAGGED BADGES   : 19
 DOCUMENTED HISTORICAL TIMELINE EVENTS : 24

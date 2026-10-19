@@ -161,10 +161,10 @@ Every badge in this dataset is assigned a single strict obtainability status:
 
 ```text
 ================================================================================
-TOTAL CATALOGED BADGE RECORDS        : 157
+TOTAL CATALOGED BADGE RECORDS        : """ + str(total_badges) + """
 TOTAL ASSET FILES ON DISK            : 179
 DISCORD API BITWISE FLAGGED BADGES   : """ + str(flagged_badges) + """
-DOCUMENTED HISTORICAL TIMELINE EVENTS : 24
+DOCUMENTED HISTORICAL TIMELINE EVENTS : """ + str(total_history) + """
 ================================================================================
 DISTRIBUTION BY OBTAINABILITY STATUS:
   • Obtainable               : """ + str(status_counts.get("obtainable", 0)) + """
