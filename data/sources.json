@@ -1,0 +1,184 @@
+{
+  "sources": [
+    {
+      "id": "discord_support_badges_101",
+      "title": "Profile Badges 101 - Discord Help Center",
+      "url": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2020-08-19",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Official guide documenting user profile badges, HypeSquad houses, Nitro badges, and boosting icons."
+    },
+    {
+      "id": "discord_dev_docs_user_flags",
+      "title": "Discord Developer Documentation: User Flags Bitfield",
+      "url": "https://discord.com/developers/docs/resources/user#user-object-user-flags",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Developer Portal",
+      "published_date": "2019-01-01",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Authoritative bitwise flag definitions for Discord Staff (1<<0), Partner (1<<1), HypeSquad Events (1<<2), Bug Hunter Tier 1 (1<<3), Houses (1<<6..8), Early Supporter (1<<9), Bug Hunter Tier 2 (1<<14), Bot Dev (1<<17), Certified Mod (1<<18), Active Dev (1<<22)."
+    },
+    {
+      "id": "discord_dev_docs_app_flags",
+      "title": "Discord Developer Documentation: Application Flags",
+      "url": "https://discord.com/developers/docs/resources/application#application-object-application-flags",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Developer Portal",
+      "published_date": "2021-03-24",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Bitfield definitions for application badges: Application Command badge (1<<19) and AutoMod Rule Provider badge (1<<24)."
+    },
+    {
+      "id": "discord_support_active_developer",
+      "title": "Active Developer Badge Support Article",
+      "url": "https://support.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2022-11-09",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Rules governing the Active Developer badge (requires 1 global slash command usage in past 30 days and enrolled in developer portal)."
+    },
+    {
+      "id": "discord_support_nitro_boosting",
+      "title": "Server Boosting FAQ - Discord Help Center",
+      "url": "https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2019-06-04",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Rules governing streak badges, grace periods (3 days/72h), and streak resets."
+    },
+    {
+      "id": "discord_support_hypesquad",
+      "title": "HypeSquad Program Terms & Houses - Discord Support",
+      "url": "https://support.discord.com/hc/en-us/articles/360003038431-HypeSquad-House-Breakdown",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2018-07-25",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Documents the three HypeSquad houses (Bravery, Brilliance, Balance) and HypeSquad Event coordinator distinctions."
+    },
+    {
+      "id": "discord_support_partner_program",
+      "title": "Discord Partner Program Updates - Discord Support",
+      "url": "https://support.discord.com/hc/en-us/articles/115001494012-Discord-Partnership-Program",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2023-10-05",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Partner program restructuring and temporary application pauses announced in October 2023."
+    },
+    {
+      "id": "discord_support_mod_academy",
+      "title": "Discord Moderator Programs & Certified Mod Alumni - Support",
+      "url": "https://discord.com/moderators",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Safety",
+      "published_date": "2022-12-01",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Retirement of the Discord Certified Moderator exam on December 1, 2022, transitioning badge to Moderator Programs Alumni."
+    },
+    {
+      "id": "discord_blog_username_migration",
+      "title": "Discord Blog: Important Update to Usernames on Discord",
+      "url": "https://discord.com/blog/welcoming-new-usernames",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Official Blog",
+      "published_date": "2023-05-03",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Documents the transition from 4-digit discriminators to unique handles, creating the legacy 'Originally known as' badge."
+    },
+    {
+      "id": "github_mezotv_discord_badges",
+      "title": "mezotv/discord-badges Repository",
+      "url": "https://github.com/mezotv/discord-badges",
+      "source_tier": "tier_3_community",
+      "publisher": "Dominik K. (mezotv)",
+      "published_date": "2022-06-15",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Community collection containing verified SVG/PNG assets, progression tiers, and documented changelog."
+    },
+    {
+      "id": "github_pandadev_badges_discord",
+      "title": "PandaDevOfficial/badges-discord Repository",
+      "url": "https://github.com/PandaDevOfficial/badges-discord",
+      "source_tier": "tier_3_community",
+      "publisher": "PandaDevOfficial",
+      "published_date": "2023-09-12",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Community catalog organizing user, bot, progression, and guild clan tag icons with Cloudflare CDN asset hosting."
+    },
+    {
+      "id": "discord_quests_faq",
+      "title": "Discord Quests FAQ & Partner Program",
+      "url": "https://support.discord.com/hc/en-us/articles/22929111629847-Discord-Quests-FAQ",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2024-03-01",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Official information on gameplay quests and promotional reward badges."
+    },
+    {
+      "id": "discord_dev_docs_bot_users",
+      "title": "Discord Developer Documentation: Bot Users & Verification",
+      "url": "https://discord.com/developers/docs/topics/oauth2#bot-vs-user-accounts",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Developer Portal",
+      "published_date": "2020-04-15",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Documentation for BOT flairs, verified bot checkmarks, and application verification."
+    },
+    {
+      "id": "discord_blog_ai_integrations",
+      "title": "Discord Blog: Bringing the Power of AI to Discord",
+      "url": "https://discord.com/blog/ai-on-discord-your-place-for-ai-with-friends",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Official Blog",
+      "published_date": "2023-03-09",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Introduced Clyde AI chatbot and the special AI tag indicator."
+    },
+    {
+      "id": "discord_support_community_servers",
+      "title": "Community Server FAQ - Discord Help Center",
+      "url": "https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2020-08-01",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Rules and visual indicators for Community guilds, including boosted variants."
+    },
+    {
+      "id": "discord_support_server_discovery",
+      "title": "Server Discovery Guidelines - Discord Help Center",
+      "url": "https://support.discord.com/hc/en-us/articles/360023968311-Server-Discovery-Guidelines",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2020-08-01",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Discovery badge requirements and compass icon indicators."
+    },
+    {
+      "id": "discord_support_server_boosting",
+      "title": "Server Boosting Perks and Level Milestones",
+      "url": "https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2019-06-04",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Server boosting tiers (Level 0 through Level 3) and icon assets."
+    },
+    {
+      "id": "discord_support_official_servers",
+      "title": "Verified and Official Server Program",
+      "url": "https://support.discord.com/hc/en-us/articles/360023968311-Server-Verification",
+      "source_tier": "tier_1_official",
+      "publisher": "Discord Support",
+      "published_date": "2018-01-01",
+      "last_crawled_date": "2026-10-18",
+      "notes": "Official staff guild verification badges."
+    }
+  ]
+}

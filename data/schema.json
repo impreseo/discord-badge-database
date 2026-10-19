@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/discord-badge-knowledgebase/master/data/schema.json",
+  "title": "DiscordBadgeRecord",
+  "description": "Validated schema for the Discord Badge Master Knowledgebase",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "badge_type",
+    "description",
+    "earning_method",
+    "eligibility_requirements",
+    "status",
+    "status_as_of",
+    "confidence",
+    "last_verified_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$",
+      "description": "Stable unique lowercase slug identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Primary documented badge title"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternative names or client string translations"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "user",
+        "nitro",
+        "boosts",
+        "applications",
+        "servers",
+        "progression",
+        "events",
+        "legacy",
+        "special",
+        "experiments"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Detailed sub-classification (e.g. developer, staff, tenure, clan_tag, account_age)"
+    },
+    "badge_type": {
+      "type": "string",
+      "enum": [
+        "profile_badge",
+        "subscription_badge",
+        "streak_badge",
+        "application_badge",
+        "server_badge",
+        "guild_tag_icon",
+        "progression_badge",
+        "event_collectible",
+        "system_flair",
+        "experimental_badge"
+      ]
+    },
+    "tier_family": {
+      "type": ["string", "null"],
+      "description": "Name of tier group if part of a progressive family"
+    },
+    "tier_level": {
+      "type": ["integer", "null"],
+      "description": "Sequential tier number (e.g. 1 to 10)"
+    },
+    "tier_threshold": {
+      "type": ["string", "null"],
+      "description": "Human-readable threshold requirement for this tier"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed factual description of what the badge represents"
+    },
+    "earning_method": {
+      "type": "string",
+      "description": "Step-by-step or historical protocol for earning"
+    },
+    "eligibility_requirements": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Discrete requirements list"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "obtainable",
+        "conditionally_obtainable",
+        "limited_time",
+        "retired",
+        "historical_only",
+        "staff_or_internal_only",
+        "experimental",
+        "announced_upcoming",
+        "unconfirmed",
+        "unknown"
+      ]
+    },
+    "status_as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "first_observed_at": {
+      "type": ["string", "null"]
+    },
+    "official_release_date": {
+      "type": ["string", "null"]
+    },
+    "availability_start": {
+      "type": ["string", "null"]
+    },
+    "availability_end": {
+      "type": ["string", "null"]
+    },
+    "retirement_date": {
+      "type": ["string", "null"]
+    },
+    "eligibility_scope": {
+      "type": "string",
+      "description": "Scope of eligibility (e.g. global_users, bot_developers, server_owners, nitro_subscribers, staff_only)"
+    },
+    "previous_names": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "previous_asset_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "current_asset_id": {
+      "type": ["string", "null"]
+    },
+    "asset_variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["variant_type", "path"],
+        "properties": {
+          "variant_type": { "type": "string" },
+          "path": { "type": "string" },
+          "format": { "type": "string" },
+          "is_animated": { "type": "boolean" },
+          "theme": { "type": "string" }
+        }
+      }
+    },
+    "official_sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "community_sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "source_repository_paths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "discord_flag_decimal": {
+      "type": ["integer", "null"]
+    },
+    "discord_flag_hex": {
+      "type": ["string", "null"]
+    },
+    "discord_flag_bit": {
+      "type": ["integer", "null"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified_official",
+        "verified_technical",
+        "verified_community",
+        "unconfirmed",
+        "speculative"
+      ]
+    },
+    "last_verified_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

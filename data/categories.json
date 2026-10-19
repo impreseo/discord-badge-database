@@ -1,0 +1,184 @@
+{
+  "categories": [
+    {
+      "id": "user",
+      "name": "User & Account Badges",
+      "description": "Individual account badges displayed directly on Discord user profile cards, covering staff, partners, bug hunters, developer recognitions, and community programs.",
+      "icon": "User",
+      "subcategories": [
+        "staff",
+        "partner",
+        "hypesquad",
+        "bug_hunter",
+        "developer",
+        "moderator",
+        "supporter",
+        "identity"
+      ]
+    },
+    {
+      "id": "nitro",
+      "name": "Nitro & Subscription Badges",
+      "description": "Subscriber status indicators and milestone tenure gemstone badges commemorating continuous active subscription time on Discord Nitro.",
+      "icon": "Zap",
+      "subcategories": [
+        "subscription",
+        "tenure_milestone",
+        "legacy_design"
+      ]
+    },
+    {
+      "id": "boosts",
+      "name": "Server Boosting Badges",
+      "description": "Progressive milestone badges displayed on member profiles and server booster lists reflecting continuous server boosting duration.",
+      "icon": "Flame",
+      "subcategories": [
+        "boost_streak"
+      ]
+    },
+    {
+      "id": "applications",
+      "name": "Bot & Application Badges",
+      "description": "Badges and indicators displayed on Discord bots and apps recognizing modern application command adoption, AutoMod enforcement, and monetization.",
+      "icon": "Bot",
+      "subcategories": [
+        "commands",
+        "moderation",
+        "monetization",
+        "verification"
+      ]
+    },
+    {
+      "id": "servers",
+      "name": "Server Badges & Tag Icons",
+      "description": "Indicators displayed on server headers, member lists, and discovery directories signifying partnership, verification, community status, boost levels, ownership, and clan tag badges.",
+      "icon": "Shield",
+      "subcategories": [
+        "server_status",
+        "boost_level",
+        "server_role",
+        "guild_tag_icon"
+      ]
+    },
+    {
+      "id": "progression",
+      "name": "Activity & Progression Badges",
+      "description": "Multi-tier progressive badges (10 tiers per family) celebrating account age milestones, total gameplay hours, gaming variety, and live streaming frequency.",
+      "icon": "Award",
+      "subcategories": [
+        "account_age",
+        "game_time",
+        "game_variety",
+        "streaming",
+        "gifting"
+      ]
+    },
+    {
+      "id": "events",
+      "name": "Event-Exclusive & Limited-Time Badges",
+      "description": "Special collectible badges awarded for specific seasonal celebrations, collaborative gaming tournaments, charity fundraisers, and platform milestones.",
+      "icon": "Sparkles",
+      "subcategories": [
+        "seasonal",
+        "tournament",
+        "quest",
+        "lootbox"
+      ]
+    },
+    {
+      "id": "legacy",
+      "name": "Retired & Legacy Badges",
+      "description": "Archived badges that can no longer be obtained by new accounts or bots due to program closures, system overhauls, or concluded transition periods.",
+      "icon": "Archive",
+      "subcategories": [
+        "retired_program",
+        "deprecated_design",
+        "discriminator_migration"
+      ]
+    },
+    {
+      "id": "special",
+      "name": "Special Flairs & System Indicators",
+      "description": "Distinguishable message tags, author labels, and UI indicators that denote automated systems, official staff messages, webhooks, or forum thread creators.",
+      "icon": "Tag",
+      "subcategories": [
+        "system_tag",
+        "author_flair",
+        "webhook_flair"
+      ]
+    },
+    {
+      "id": "experiments",
+      "name": "Experimental & Rollout Badges",
+      "description": "Badges documented in active A/B testing, internal staff testing rings, or canary/beta client builds with pending global rollout decisions.",
+      "icon": "FlaskConical",
+      "subcategories": [
+        "guild_clan",
+        "client_experiment",
+        "tenure_evolution"
+      ]
+    }
+  ],
+  "statuses": [
+    {
+      "id": "obtainable",
+      "label": "Obtainable",
+      "description": "Verified as currently earnable by any eligible user or server fulfilling standard requirements.",
+      "color": "emerald"
+    },
+    {
+      "id": "conditionally_obtainable",
+      "label": "Conditionally Obtainable",
+      "description": "Obtainable only when active subscription, program invitation, or strict application requirements are maintained.",
+      "color": "sky"
+    },
+    {
+      "id": "limited_time",
+      "label": "Limited Time",
+      "description": "Obtainable exclusively during an active, documented, time-bounded promotional or event window.",
+      "color": "amber"
+    },
+    {
+      "id": "retired",
+      "label": "Retired",
+      "description": "The earning route has permanently concluded. Existing holders retain the badge, but no new badges are issued.",
+      "color": "rose"
+    },
+    {
+      "id": "historical_only",
+      "label": "Historical Only",
+      "description": "Associated with past platform eras or short-term trials with no current path to earn.",
+      "color": "purple"
+    },
+    {
+      "id": "staff_or_internal_only",
+      "label": "Staff / Internal Only",
+      "description": "Strictly restricted to official Discord personnel, corporate systems, or internal test harnesses.",
+      "color": "indigo"
+    },
+    {
+      "id": "experimental",
+      "label": "Experimental",
+      "description": "Under active A/B experimentation or staged rollout; not generally available to all accounts.",
+      "color": "violet"
+    },
+    {
+      "id": "announced_upcoming",
+      "label": "Announced Upcoming",
+      "description": "Officially confirmed by Discord communications for future release but not yet available.",
+      "color": "teal"
+    },
+    {
+      "id": "unconfirmed",
+      "label": "Unconfirmed",
+      "description": "Reported through preliminary observations without definitive official or API confirmation.",
+      "color": "neutral"
+    },
+    {
+      "id": "unknown",
+      "label": "Unknown",
+      "description": "Insufficient verified data available to classify current obtainability.",
+      "color": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: Validate Discord Badge Knowledgebase
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Schema and Data Validation
+        run: python3 scripts/validate_data.py
+
+      - name: Run Asset Integrity and Checksums
+        run: python3 scripts/check_assets.py
+
+      - name: Check Documentation Generation Consistency
+        run: |
+          python3 scripts/generate_readme.py
+          git diff --exit-code README.md || (echo "README.md is out of sync with data/badges.json. Run python3 scripts/generate_readme.py!" && exit 1)

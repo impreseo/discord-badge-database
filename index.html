@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Ensure window.fetch and Window.prototype.fetch have both getter and setter so extension interceptors never throw TypeError
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = originalFetch;
+          try {
+            Object.defineProperty(Window.prototype, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function() { return currentFetch; },
+              set: function(fn) { currentFetch = fn; }
+            });
+          } catch (_) {}
+          try {
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function() { return currentFetch; },
+              set: function(fn) { currentFetch = fn; }
+            });
+          } catch (_) {}
+        } catch (_) {}
+      })();
+    </script>
+    <title>Discord Badge Knowledgebase & Digital Archive</title>
+    <meta name="description" content="Comprehensive intelligence database, historical archive, obtainability tracking, and verified asset collection for all Discord badges." />
+    <meta property="og:title" content="Discord Badge Knowledgebase & Digital Archive" />
+    <meta property="og:description" content="Comprehensive intelligence database, historical archive, obtainability tracking, and verified asset collection for all Discord badges." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/assets/discord-staff.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#0b0e14] text-[#e2e8f0] antialiased selection:bg-[#5865f2]/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

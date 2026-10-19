@@ -1,0 +1,6 @@
+{
+  "name": "Discord Badge Knowledgebase & Archive",
+  "description": "Comprehensive intelligence database, historical archive, obtainability tracking, and verified asset collection for all Discord badges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

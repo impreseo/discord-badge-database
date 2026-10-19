@@ -1,0 +1,174 @@
+{
+  "total_events": 24,
+  "last_updated": "2026-10-18",
+  "events": [
+    {
+      "date": "2015-05-13",
+      "event_type": "launch",
+      "badge_id": "discord_staff",
+      "title": "Discord Platform Launch & Discord Staff Badge Established",
+      "description": "Discord launched publicly. Internal staff members and founders receive the Discord Staff employee badge (Flag 1<<0)."
+    },
+    {
+      "date": "2016-10-11",
+      "event_type": "launch",
+      "badge_id": "partnered_server_owner",
+      "title": "Discord Partner Program Introduced",
+      "description": "Discord launched the Partner Program to reward vibrant communities and content creators with custom VIP voice servers, partner hoodies, and the Partner profile badge (Flag 1<<1)."
+    },
+    {
+      "date": "2017-01-23",
+      "event_type": "launch",
+      "badge_id": "discord_nitro",
+      "title": "Discord Nitro Subscription Launched",
+      "description": "Discord introduced the Nitro subscription ($4.99/mo at launch) with custom emoji everywhere, screen sharing, and the Discord Nitro subscriber badge."
+    },
+    {
+      "date": "2018-03-01",
+      "event_type": "launch",
+      "badge_id": "hypesquad_events",
+      "title": "HypeSquad Events Coordinator Badge Formalized",
+      "description": "Discord split the HypeSquad program to establish the HypeSquad Events tier (Flag 1<<2) for offline convention and tournament organizers."
+    },
+    {
+      "date": "2018-07-25",
+      "event_type": "launch",
+      "badge_id": "hypesquad_bravery",
+      "title": "HypeSquad Houses & Personality Quiz Rollout",
+      "description": "Discord launched the in-app HypeSquad personality aptitude test, dividing millions of community members into Bravery (Flag 1<<6), Brilliance (Flag 1<<7), and Balance (Flag 1<<8)."
+    },
+    {
+      "date": "2018-10-10",
+      "event_type": "retirement",
+      "badge_id": "early_supporter",
+      "title": "Discord Nitro Tiers Split & Early Supporter Cutoff",
+      "description": "Discord introduced Nitro ($9.99/mo) and Nitro Classic ($4.99/mo). Accounts with an active subscription before 7:20 PM PDT permanently received the Early Supporter badge (Flag 1<<9)."
+    },
+    {
+      "date": "2019-02-01",
+      "event_type": "event_collab",
+      "badge_id": "koth_hypesquad_balance",
+      "title": "King of the Hat Collaboration Badge",
+      "description": "A temporary crown-adorned HypeSquad Balance badge was awarded during the launch of King of the Hat on Discord Store."
+    },
+    {
+      "date": "2019-06-04",
+      "event_type": "launch",
+      "badge_id": "boost_tier_1_month",
+      "title": "Server Boosting & Progressive Evolving Streak Badges Introduced",
+      "description": "Discord unveiled Server Boosting along with the 9-tier evolving streak badge family on user profile cards."
+    },
+    {
+      "date": "2019-12-15",
+      "event_type": "event_award",
+      "badge_id": "golden_hypesquad_balance",
+      "title": "Snowsgiving 2019 Golden Animated Balance Badge",
+      "description": "House of Balance won the charity competition. For approximately 7 weeks (until Feb 3, 2020), Balance badges were rendered in glistening animated gold."
+    },
+    {
+      "date": "2020-04-01",
+      "event_type": "launch",
+      "badge_id": "early_verified_bot_developer",
+      "title": "Bot Verification Program & Developer Badge Introduced",
+      "description": "Discord launched formal bot identity verification at 75+ servers, introducing the Verified Bot Developer badge."
+    },
+    {
+      "date": "2020-08-19",
+      "event_type": "rename_and_closure",
+      "badge_id": "early_verified_bot_developer",
+      "title": "Verified Bot Developer Converted to 'Early Verified Bot Developer'",
+      "description": "Applications for developer profile badges ceased; the badge was renamed to 'Early Verified Bot Developer' and permanently retired for new developers."
+    },
+    {
+      "date": "2020-06-01",
+      "event_type": "launch",
+      "badge_id": "moderator_programs_alumni",
+      "title": "Discord Certified Moderator Exam & Program Launched",
+      "description": "Discord launched the Moderator Academy and Certified Moderator badge (Flag 1<<18) for qualified community moderators."
+    },
+    {
+      "date": "2021-03-24",
+      "event_type": "launch",
+      "badge_id": "supports_commands",
+      "title": "Application Commands (Slash Commands) Badge",
+      "description": "Discord launched the 'Supports Commands' badge for bots adopting modern slash command APIs (Application Flag 1<<19)."
+    },
+    {
+      "date": "2022-05-31",
+      "event_type": "redesign",
+      "badge_id": "partnered_server_owner",
+      "title": "Discord Partner Badge Modern Vector Redesign",
+      "description": "Replaced the legacy circular shield artwork with modern geometric vector partner insignia."
+    },
+    {
+      "date": "2022-10-20",
+      "event_type": "launch",
+      "badge_id": "discord_nitro_basic",
+      "title": "Discord Nitro Basic Introduced",
+      "description": "Nitro Basic was rolled out at $2.99/mo, introducing a discrete badge icon."
+    },
+    {
+      "date": "2022-11-09",
+      "event_type": "launch",
+      "badge_id": "active_developer",
+      "title": "Active Developer Badge Introduced",
+      "description": "Discord unveiled the Active Developer badge (Flag 1<<22) to recognize developers with active global command traffic in the past 30 days."
+    },
+    {
+      "date": "2022-12-01",
+      "event_type": "rename_and_closure",
+      "badge_id": "moderator_programs_alumni",
+      "title": "Moderator Programs Restructure & Alumni Rebrand",
+      "description": "The Certified Moderator exam concluded; the badge was rebranded to 'Moderator Programs Alumni' and retired for new applicants."
+    },
+    {
+      "date": "2023-05-03",
+      "event_type": "migration",
+      "badge_id": "legacy_username",
+      "title": "New Username System & Legacy Discriminator Badge",
+      "description": "Discord transitioned from Username#1234 to unique @handles, introducing the interactive 'Originally known as' badge for legacy users."
+    },
+    {
+      "date": "2023-10-05",
+      "event_type": "program_pause",
+      "badge_id": "partnered_server_owner",
+      "title": "Discord Partner Program Applications Paused",
+      "description": "Discord temporarily suspended partner applications for system redesign, making Partner badges conditionally obtainable only via server ownership transfer."
+    },
+    {
+      "date": "2024-04-01",
+      "event_type": "event_award",
+      "badge_id": "discord_lootbox",
+      "title": "April Fools 2024 Lootbox Simulation Event",
+      "description": "Discord launched the Lootbox simulator event; users who unlocked all 9 parody cosmetics received the permanent Lootbox badge."
+    },
+    {
+      "date": "2024-04-10",
+      "event_type": "experiment",
+      "badge_id": "account_age_seed",
+      "title": "Profile Badges 101 Progression Families Experiment",
+      "description": "Discord began A/B testing progressive 10-tier badge families for Account Age, Game Time, Game Variety, and Live Streaming."
+    },
+    {
+      "date": "2024-04-17",
+      "event_type": "rename",
+      "badge_id": "flair_bot_app",
+      "title": "Bot Tags Renamed to 'APP'",
+      "description": "Discord rebranded user interface flair from 'BOT' to 'APP' across all verified and unverified applications."
+    },
+    {
+      "date": "2024-05-15",
+      "event_type": "launch",
+      "badge_id": "gifting_patron",
+      "title": "Discord Shop Gifting Milestone Badges",
+      "description": "Introduced the 6-tier Gifting badge progression (Patron to Legend) rewarding users who send Shop gifts and Wishlist purchases."
+    },
+    {
+      "date": "2024-09-01",
+      "event_type": "redesign",
+      "badge_id": "nitro_tenure_bronze",
+      "title": "Discord Nitro Subscriber & Tenure Milestones Overhaul",
+      "description": "Discord overhauled Nitro subscriber artwork and launched the refined 8-tier gemstone tenure progression up to Opal (6+ years)."
+    }
+  ]
+}
