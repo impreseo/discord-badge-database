@@ -1,5 +1,6 @@
 import React from "react";
 import type { BadgeItem } from "../utils/filter";
+import { resolveAssetPath } from "../utils/assets";
 import { ExternalLink, Sparkles } from "lucide-react";
 
 interface BadgeCardProps {
@@ -75,7 +76,7 @@ const STATUS_CONFIG: Record<
 
 export const BadgeCard: React.FC<BadgeCardProps> = ({ badge, onSelect }) => {
   const statusInfo = STATUS_CONFIG[badge.status] || STATUS_CONFIG.unknown;
-  const assetPath = badge.current_asset_id ? `/${badge.current_asset_id.replace(/^\//, "")}` : null;
+  const assetPath = resolveAssetPath(badge.current_asset_id);
   const [imgError, setImgError] = React.useState(false);
 
   return (

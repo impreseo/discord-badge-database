@@ -1,5 +1,6 @@
 import React from "react";
 import type { BadgeItem } from "../utils/filter";
+import { resolveAssetPath } from "../utils/assets";
 import { X, ExternalLink, Download, Shield, Calendar, Binary, Tag, Info, CheckCircle2 } from "lucide-react";
 
 interface BadgeDetailModalProps {
@@ -11,7 +12,7 @@ export const BadgeDetailModal: React.FC<BadgeDetailModalProps> = ({ badge, onClo
   if (!badge) return null;
 
   const [imgError, setImgError] = React.useState(false);
-  const assetPath = badge.current_asset_id ? `/${badge.current_asset_id.replace(/^\//, "")}` : null;
+  const assetPath = resolveAssetPath(badge.current_asset_id);
 
   return (
     <div

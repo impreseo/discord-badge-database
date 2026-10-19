@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Discord Badge Knowledgebase & Digital Archive</title>
+    <script>
+      // Single Page App redirect for GitHub Pages
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      var repoName = l.pathname.split('/')[1] || '';
+      var destination = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/' + repoName + '/';
+      window.location.replace(destination);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="./">Discord Badge Knowledgebase</a>...</p>
+  </body>
+</html>

@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import type { BadgeItem } from "../utils/filter";
+import { resolveAssetPath } from "../utils/assets";
 import { UserCheck, Sparkles, RefreshCw, Palette, Search, Layers, Check } from "lucide-react";
 
 interface ProfileSimulatorProps {
@@ -70,7 +71,7 @@ const SafeBadgeIcon: React.FC<{ badge: BadgeItem; className?: string; fallbackSi
   fallbackSize = "w-3 h-3 text-slate-500",
 }) => {
   const [error, setError] = useState(false);
-  const asset = badge.current_asset_id ? `/${badge.current_asset_id.replace(/^\//, "")}` : null;
+  const asset = resolveAssetPath(badge.current_asset_id);
 
   if (!asset || error) {
     return <Sparkles className={fallbackSize} />;
