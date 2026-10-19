@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="140" height="140">
+  <rect width="22" height="22" x="1" y="1" rx="6" fill="#9b59b6"/>
+  <polygon points="10,7 16,12 10,17" fill="#ffffff"/>
+  <path d="M17 9a4 4 0 0 1 0 6" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+  <text x="6" y="19" fill="#ffffff" font-family="system-ui" font-size="6" font-weight="bold">T3</text>
+</svg>

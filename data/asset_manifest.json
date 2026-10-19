@@ -1,5 +1,5 @@
 {
-  "total_assets": 65,
+  "total_assets": 202,
   "assets": [
     {
       "path": "assets\\active-developer.svg",
@@ -77,6 +77,139 @@
       "format": "svg",
       "size_bytes": 3608,
       "sha256": "facd58f080573903f3c4a14fe3af134f5c1773b425b3d6dc2d40e9cc355a333f"
+    },
+    {
+      "path": "assets\\golden-hype-squad-balance.svg",
+      "filename": "golden-hype-squad-balance.svg",
+      "format": "svg",
+      "size_bytes": 218,
+      "sha256": "8dfb3118e418688de96e43df8f88e78737a60270cda947fcd8321526fd1df136"
+    },
+    {
+      "path": "assets\\hype-squad-balance.svg",
+      "filename": "hype-squad-balance.svg",
+      "format": "svg",
+      "size_bytes": 301,
+      "sha256": "eeedabfa8a8a0cf7b7faf600ad1bb5d300df5d92908327532d9d86eb09cf71e7"
+    },
+    {
+      "path": "assets\\hype-squad-bravery.svg",
+      "filename": "hype-squad-bravery.svg",
+      "format": "svg",
+      "size_bytes": 449,
+      "sha256": "73e755ff13518a01858b45f174d0cb9c1f99208860097af38c720a898d74b823"
+    },
+    {
+      "path": "assets\\hype-squad-brilliance.svg",
+      "filename": "hype-squad-brilliance.svg",
+      "format": "svg",
+      "size_bytes": 343,
+      "sha256": "520d109d8f42f42745249948ab12da1a2e61b48119d1981d4e3c5fd8096cc9c2"
+    },
+    {
+      "path": "assets\\hype-squad-events.svg",
+      "filename": "hype-squad-events.svg",
+      "format": "svg",
+      "size_bytes": 390,
+      "sha256": "e0c126c74a3d474acc6ccf628b55147121584653fe26bac15c60c6ce918627a3"
+    },
+    {
+      "path": "assets\\koth-hype-squad-balance.svg",
+      "filename": "koth-hype-squad-balance.svg",
+      "format": "svg",
+      "size_bytes": 271,
+      "sha256": "59c7fb98b1f9d49b013ca36405bb8e96bdd66c8bb44a9e320268e57e9493b687"
+    },
+    {
+      "path": "assets\\last-meadow.png",
+      "filename": "last-meadow.png",
+      "format": "png",
+      "size_bytes": 234,
+      "sha256": "9d3a3084201f9b53c00a560f21f2f91ecfd33ecfc6c564cf3b27951db7cbf596"
+    },
+    {
+      "path": "assets\\last-meadow.svg",
+      "filename": "last-meadow.svg",
+      "format": "svg",
+      "size_bytes": 234,
+      "sha256": "9d3a3084201f9b53c00a560f21f2f91ecfd33ecfc6c564cf3b27951db7cbf596"
+    },
+    {
+      "path": "assets\\old-discord-mod.svg",
+      "filename": "old-discord-mod.svg",
+      "format": "svg",
+      "size_bytes": 265,
+      "sha256": "a1e969630ef7d4a8f2baf253e286e516dda63e3699f4f61c26778532abb7e99d"
+    },
+    {
+      "path": "assets\\old-discord-nitro.svg",
+      "filename": "old-discord-nitro.svg",
+      "format": "svg",
+      "size_bytes": 449,
+      "sha256": "73e755ff13518a01858b45f174d0cb9c1f99208860097af38c720a898d74b823"
+    },
+    {
+      "path": "assets\\old-discord-partner.png",
+      "filename": "old-discord-partner.png",
+      "format": "png",
+      "size_bytes": 382,
+      "sha256": "7d96e4d410da649ca9dae8ac07d0f7abef67e8733f088270f0753b023ada07d6"
+    },
+    {
+      "path": "assets\\orb.svg",
+      "filename": "orb.svg",
+      "format": "svg",
+      "size_bytes": 274,
+      "sha256": "20dd245a4c04f85e86c4cd2310c9f44776bedb411559bae4d1237b6e11140c0d"
+    },
+    {
+      "path": "assets\\premium-bot.png",
+      "filename": "premium-bot.png",
+      "format": "png",
+      "size_bytes": 263,
+      "sha256": "d024d90d61ac7cdc01d84f230b5378530e8d295f5f29d204556df7e3b0f04399"
+    },
+    {
+      "path": "assets\\premium-bot.svg",
+      "filename": "premium-bot.svg",
+      "format": "svg",
+      "size_bytes": 263,
+      "sha256": "d024d90d61ac7cdc01d84f230b5378530e8d295f5f29d204556df7e3b0f04399"
+    },
+    {
+      "path": "assets\\quest.png",
+      "filename": "quest.png",
+      "format": "png",
+      "size_bytes": 310,
+      "sha256": "f4a04df928670733fb9f290c52422e935c1987e0e50b22021abdb6b646ada632"
+    },
+    {
+      "path": "assets\\quest.svg",
+      "filename": "quest.svg",
+      "format": "svg",
+      "size_bytes": 310,
+      "sha256": "f4a04df928670733fb9f290c52422e935c1987e0e50b22021abdb6b646ada632"
+    },
+    {
+      "path": "assets\\supports-commands.svg",
+      "filename": "supports-commands.svg",
+      "format": "svg",
+      "size_bytes": 226,
+      "sha256": "5c4867b272f3b50a3cbba28c129d08da2a7b7b651c204273f7da51af0b564ae0"
+    },
+    {
+      "path": "assets\\username.png",
+      "filename": "username.png",
+      "format": "png",
+      "size_bytes": 335,
+      "sha256": "ed6b5570cdc28c9f62acea3c9dd6af537fc266107b509adab3de538ce020df9d"
+    },
+    {
+      "path": "assets\\username.svg",
+      "filename": "username.svg",
+      "format": "svg",
+      "size_bytes": 335,
+      "sha256": "ed6b5570cdc28c9f62acea3c9dd6af537fc266107b509adab3de538ce020df9d"
     },
     {
       "path": "assets\\account-age\\blossom.svg",
@@ -401,6 +534,615 @@
       "sha256": "498c4e5c50695f0e4b4982fd3379b019d2372e50ef8498203502ce2dd3b49c03"
     },
     {
+      "path": "assets\\gifting\\legend.png",
+      "filename": "legend.png",
+      "format": "png",
+      "size_bytes": 1332,
+      "sha256": "27544e6ea88d438fc4573ff2ffca65fe2d8accb16269c9de7055de1b1c7c1d7c"
+    },
+    {
+      "path": "assets\\gifting\\luminary.png",
+      "filename": "luminary.png",
+      "format": "png",
+      "size_bytes": 1332,
+      "sha256": "27544e6ea88d438fc4573ff2ffca65fe2d8accb16269c9de7055de1b1c7c1d7c"
+    },
+    {
+      "path": "assets\\gifting\\patron.png",
+      "filename": "patron.png",
+      "format": "png",
+      "size_bytes": 1332,
+      "sha256": "27544e6ea88d438fc4573ff2ffca65fe2d8accb16269c9de7055de1b1c7c1d7c"
+    },
+    {
+      "path": "assets\\guilds\\1.svg",
+      "filename": "1.svg",
+      "format": "svg",
+      "size_bytes": 324,
+      "sha256": "3b63356920670eee1b9ed90b469ab227d999d1b991ffd10f6ed70130d78b23e0"
+    },
+    {
+      "path": "assets\\guilds\\10.svg",
+      "filename": "10.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "df638369c211338553171498ee65e6bf6cfe6a9dc4412ab2888271fefd177875"
+    },
+    {
+      "path": "assets\\guilds\\11.svg",
+      "filename": "11.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "df6827d3f9af161e88c5e4a0c57b13fa4e87f5129c1c3655b81d2f26405361df"
+    },
+    {
+      "path": "assets\\guilds\\12.svg",
+      "filename": "12.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "5e542ea11a3816b9ddf56b5b571cd867b1ead562fad56a3b8f15be5d2d2e38d4"
+    },
+    {
+      "path": "assets\\guilds\\13.svg",
+      "filename": "13.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "2ab5923159ede88acf4d89e61e9ebd6d3d292256f5afab587314d847fe7fdd3b"
+    },
+    {
+      "path": "assets\\guilds\\14.svg",
+      "filename": "14.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "d88770912d40b9dd5d3812f859b6ddfb2777ef7ff0f896885c1bdb8f2b8335c2"
+    },
+    {
+      "path": "assets\\guilds\\15.svg",
+      "filename": "15.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "f1c88b42784bd9ef7a36e7f213f4ad4d498dfe37160e9503cf6cfdb3b7aeabef"
+    },
+    {
+      "path": "assets\\guilds\\16.svg",
+      "filename": "16.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "37cb0751dc1f5989205f5ab16f3c7d746139f8fa329909f2ebfa6f77bea71218"
+    },
+    {
+      "path": "assets\\guilds\\17.svg",
+      "filename": "17.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "6a7791447bd1f6d23ab1a8585f4312d59ebe67befa8284d6b3ea55a609ca0a4e"
+    },
+    {
+      "path": "assets\\guilds\\18.svg",
+      "filename": "18.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "5c35a3118bd071d3593948a06a7269ae8db179b4d0d62417a46c177a885af98b"
+    },
+    {
+      "path": "assets\\guilds\\19.svg",
+      "filename": "19.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "4e16c306ae7993f493727e4eebc1725bdc763dc56bec78d2ca59de5c6c488ebc"
+    },
+    {
+      "path": "assets\\guilds\\2.svg",
+      "filename": "2.svg",
+      "format": "svg",
+      "size_bytes": 324,
+      "sha256": "366c12aa6b28635e45d10660a54ac3802feee1d0fff02ef854d2e96f34a61a82"
+    },
+    {
+      "path": "assets\\guilds\\20.svg",
+      "filename": "20.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "3470c000ef766aca0fefc8742ae83f977be49db0af77f52b97d240c811b761cb"
+    },
+    {
+      "path": "assets\\guilds\\21.svg",
+      "filename": "21.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "40f86400060f78c0f8a195612029a3f1eeb2fa02c922ed403c827117e11e5613"
+    },
+    {
+      "path": "assets\\guilds\\22.svg",
+      "filename": "22.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "e48d379cab257068141235c739dc76d2efe8d04ae3bc435bfc6aa505d9873633"
+    },
+    {
+      "path": "assets\\guilds\\23.svg",
+      "filename": "23.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "51e776d53b49fe3cb771ccb9fcc8e01a36cf1766325ed2fa5dbe927dc3a57966"
+    },
+    {
+      "path": "assets\\guilds\\24.svg",
+      "filename": "24.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "0c3d9b3154ac8630d4129226e7b7306bfbf3436d8bab6501133298e0fd09ce69"
+    },
+    {
+      "path": "assets\\guilds\\25.svg",
+      "filename": "25.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "64c7d5a25ec7e3fc740d13a90aebae23aa07c937eeaae80915f649d35cc96ae3"
+    },
+    {
+      "path": "assets\\guilds\\26.svg",
+      "filename": "26.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "43dddb044e295b763042f088cf2dbe8675769ef113f1154c2f4c0f6ab91c922c"
+    },
+    {
+      "path": "assets\\guilds\\27.svg",
+      "filename": "27.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "54e8849f24cdd2b3e22636b8483cbbea1524d9d3d3a17d5cb928cba70a8e12b3"
+    },
+    {
+      "path": "assets\\guilds\\28.svg",
+      "filename": "28.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "41636dd6cf4e766fe7a144dc4ed09a5511198a644933709e2a94dacc2b830f2c"
+    },
+    {
+      "path": "assets\\guilds\\29.svg",
+      "filename": "29.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "19ba5d7715ef5f5e836429af2d610bd34448f6777384093545a635bf30e81cf5"
+    },
+    {
+      "path": "assets\\guilds\\3.svg",
+      "filename": "3.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "ab856b4efe327ebb4bca3f31f44a44407d75fcb3ddcbd7518bf16bab17f435fb"
+    },
+    {
+      "path": "assets\\guilds\\30.svg",
+      "filename": "30.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "e705f02f8b0330817bd457a26218f900895582aebfdaca84233c404040359e8b"
+    },
+    {
+      "path": "assets\\guilds\\31.svg",
+      "filename": "31.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "9580ea03f7d1f7f9398eb0e4f65180e434529163a5296222aeda1d0c53c205f3"
+    },
+    {
+      "path": "assets\\guilds\\32.svg",
+      "filename": "32.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "4a5ae27ec03fcbdbc8b51e483e56d229fb1656bbf3393ffe17dac7d735bb49d0"
+    },
+    {
+      "path": "assets\\guilds\\33.svg",
+      "filename": "33.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "9da5be44b22b19c117e75c71102a33701683586ca8a786e8294c14e47947c475"
+    },
+    {
+      "path": "assets\\guilds\\34.svg",
+      "filename": "34.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "21a44b41f7c9b0c42b1b5ca7684744aa8166390aceec16fe183a5221e2279d24"
+    },
+    {
+      "path": "assets\\guilds\\35.svg",
+      "filename": "35.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "3738daab6a34dd674f2052828c765fd7caabaa2d6ff390d05836508a4f547038"
+    },
+    {
+      "path": "assets\\guilds\\36.svg",
+      "filename": "36.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "e38e2665ca877a4bcf42bce912026f089cdcb7830f78118816b717564db4b73d"
+    },
+    {
+      "path": "assets\\guilds\\37.svg",
+      "filename": "37.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "971983ae0c89c0475514e42daaf6af51df740b8136c8cfa0cab08443ef424aaf"
+    },
+    {
+      "path": "assets\\guilds\\38.svg",
+      "filename": "38.svg",
+      "format": "svg",
+      "size_bytes": 326,
+      "sha256": "0613f70bd5ccd0393cc462b712274031cd952ca0f1201588e2a10e72b783ab8f"
+    },
+    {
+      "path": "assets\\guilds\\39.svg",
+      "filename": "39.svg",
+      "format": "svg",
+      "size_bytes": 324,
+      "sha256": "bdc9ba8a43ff094588745aef9c3cc4eb7b3213d86127e3eef32e7223f7bc59fa"
+    },
+    {
+      "path": "assets\\guilds\\4.svg",
+      "filename": "4.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "00943ca0ae85c864bdb11b04d4629d99a408487fbbdb2f4f8aab60b26270e58c"
+    },
+    {
+      "path": "assets\\guilds\\40.svg",
+      "filename": "40.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "b31ba5120352337cfc1b9ebfe8b99690da1caf12ef32b18bb83997e0a6b77615"
+    },
+    {
+      "path": "assets\\guilds\\41.svg",
+      "filename": "41.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "bebf164254360903a8795a3c89d0f2686d50307e9d9bc50101fa1ee38b202116"
+    },
+    {
+      "path": "assets\\guilds\\5.svg",
+      "filename": "5.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "c52958802acd56d30d81a9032bb15107eb8c6cde5d64589c4019f0fefada0ad4"
+    },
+    {
+      "path": "assets\\guilds\\6.svg",
+      "filename": "6.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "e2c034ad695be5fc15a81ac90c55391cfb4dc5b47ec490483cb773747ac918d5"
+    },
+    {
+      "path": "assets\\guilds\\7.svg",
+      "filename": "7.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "fcb78be353e200823021c3cf48207d515e8549e211087570f8b93865a52734fc"
+    },
+    {
+      "path": "assets\\guilds\\8.svg",
+      "filename": "8.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "a6161a7204521c3ff30d60010c902444519f8d8090c66e8ee26068da204e1b62"
+    },
+    {
+      "path": "assets\\guilds\\9.svg",
+      "filename": "9.svg",
+      "format": "svg",
+      "size_bytes": 325,
+      "sha256": "8bd0622f5ced1cd3a4ad5d059ef0ca32539f6da475e9f40550fdfde6d2cc1c8d"
+    },
+    {
+      "path": "assets\\server\\boost-0.svg",
+      "filename": "boost-0.svg",
+      "format": "svg",
+      "size_bytes": 340,
+      "sha256": "9b50cce6ab737e1849820713e92acae68021cad5ca5bc84991e4a87b896c3836"
+    },
+    {
+      "path": "assets\\server\\boost-1.svg",
+      "filename": "boost-1.svg",
+      "format": "svg",
+      "size_bytes": 340,
+      "sha256": "1137ad4dce1242bbc7af79eee984a63c2d048dd209791d12bfdb63146ca207f3"
+    },
+    {
+      "path": "assets\\server\\boost-2-dark.svg",
+      "filename": "boost-2-dark.svg",
+      "format": "svg",
+      "size_bytes": 340,
+      "sha256": "c5a850bac89777a25a2a3b6ca088831890be32f0302c0c6d053c6c0ae4d30428"
+    },
+    {
+      "path": "assets\\server\\boost-2-light.svg",
+      "filename": "boost-2-light.svg",
+      "format": "svg",
+      "size_bytes": 340,
+      "sha256": "c5a850bac89777a25a2a3b6ca088831890be32f0302c0c6d053c6c0ae4d30428"
+    },
+    {
+      "path": "assets\\server\\boost-3-dark.svg",
+      "filename": "boost-3-dark.svg",
+      "format": "svg",
+      "size_bytes": 340,
+      "sha256": "cbcb5a8c661f652b9791b07a94fb54a7ea016b82754d5fd9a994627db415543b"
+    },
+    {
+      "path": "assets\\server\\boost-3-light.svg",
+      "filename": "boost-3-light.svg",
+      "format": "svg",
+      "size_bytes": 340,
+      "sha256": "cbcb5a8c661f652b9791b07a94fb54a7ea016b82754d5fd9a994627db415543b"
+    },
+    {
+      "path": "assets\\server\\community-boosted.svg",
+      "filename": "community-boosted.svg",
+      "format": "svg",
+      "size_bytes": 481,
+      "sha256": "91c9b6312c04c202dc380b4d0dd21097559989d1ee719688a6fc88d1ed161bae"
+    },
+    {
+      "path": "assets\\server\\community-dark.svg",
+      "filename": "community-dark.svg",
+      "format": "svg",
+      "size_bytes": 481,
+      "sha256": "91c9b6312c04c202dc380b4d0dd21097559989d1ee719688a6fc88d1ed161bae"
+    },
+    {
+      "path": "assets\\server\\community-light.svg",
+      "filename": "community-light.svg",
+      "format": "svg",
+      "size_bytes": 481,
+      "sha256": "91c9b6312c04c202dc380b4d0dd21097559989d1ee719688a6fc88d1ed161bae"
+    },
+    {
+      "path": "assets\\server\\crown.svg",
+      "filename": "crown.svg",
+      "format": "svg",
+      "size_bytes": 330,
+      "sha256": "64d04623e9852bc481c9c21e475bd39e13844f21e78b22ce45da6f32d4c251f9"
+    },
+    {
+      "path": "assets\\server\\discoverable-boosted.svg",
+      "filename": "discoverable-boosted.svg",
+      "format": "svg",
+      "size_bytes": 313,
+      "sha256": "9497defe72deeba4d8d57cd29e7035a008980d48bdd07c341a78b9a392cbc96e"
+    },
+    {
+      "path": "assets\\server\\discoverable-dark.svg",
+      "filename": "discoverable-dark.svg",
+      "format": "svg",
+      "size_bytes": 313,
+      "sha256": "9497defe72deeba4d8d57cd29e7035a008980d48bdd07c341a78b9a392cbc96e"
+    },
+    {
+      "path": "assets\\server\\discoverable-light.svg",
+      "filename": "discoverable-light.svg",
+      "format": "svg",
+      "size_bytes": 313,
+      "sha256": "9497defe72deeba4d8d57cd29e7035a008980d48bdd07c341a78b9a392cbc96e"
+    },
+    {
+      "path": "assets\\server\\new-here.svg",
+      "filename": "new-here.svg",
+      "format": "svg",
+      "size_bytes": 328,
+      "sha256": "1bd00f6dd498c4cf0f9dae9a2a2db8898df63443b2773055b2511bda10c824b5"
+    },
+    {
+      "path": "assets\\server\\partnered.svg",
+      "filename": "partnered.svg",
+      "format": "svg",
+      "size_bytes": 382,
+      "sha256": "7d96e4d410da649ca9dae8ac07d0f7abef67e8733f088270f0753b023ada07d6"
+    },
+    {
+      "path": "assets\\server\\staff.svg",
+      "filename": "staff.svg",
+      "format": "svg",
+      "size_bytes": 386,
+      "sha256": "8b38ad9830fc0dc62de6bd1b295af299a69ba7122275581b8bc37a026e192a1b"
+    },
+    {
+      "path": "assets\\server\\verified.svg",
+      "filename": "verified.svg",
+      "format": "svg",
+      "size_bytes": 265,
+      "sha256": "a1e969630ef7d4a8f2baf253e286e516dda63e3699f4f61c26778532abb7e99d"
+    },
+    {
+      "path": "assets\\special\\app.svg",
+      "filename": "app.svg",
+      "format": "svg",
+      "size_bytes": 300,
+      "sha256": "26478494d9a8b1193cd22a45e6fc59932ad06cbac9fe4c85ecf9c9648764b8fb"
+    },
+    {
+      "path": "assets\\special\\beta.svg",
+      "filename": "beta.svg",
+      "format": "svg",
+      "size_bytes": 301,
+      "sha256": "48bdd36ca9272f9f9a22f08f8f929af03642add11fb3e75383892e869c42277b"
+    },
+    {
+      "path": "assets\\special\\bot.svg",
+      "filename": "bot.svg",
+      "format": "svg",
+      "size_bytes": 300,
+      "sha256": "ad558c32f1cd2adbc3ac4842d8a59ae643c1c345caae8cb26ef40539c45499a3"
+    },
+    {
+      "path": "assets\\special\\dark-ai.svg",
+      "filename": "dark-ai.svg",
+      "format": "svg",
+      "size_bytes": 299,
+      "sha256": "2c170f0025b22920851d5c16fff504b5f322c51b44b998dd5dc3724682bb7e78"
+    },
+    {
+      "path": "assets\\special\\discord-lootbox.svg",
+      "filename": "discord-lootbox.svg",
+      "format": "svg",
+      "size_bytes": 445,
+      "sha256": "0fcaecdf35a8ddee4c970095849d1caeb927883c1260a96193899b700d3fd73f"
+    },
+    {
+      "path": "assets\\special\\light-ai.svg",
+      "filename": "light-ai.svg",
+      "format": "svg",
+      "size_bytes": 299,
+      "sha256": "2c170f0025b22920851d5c16fff504b5f322c51b44b998dd5dc3724682bb7e78"
+    },
+    {
+      "path": "assets\\special\\official.svg",
+      "filename": "official.svg",
+      "format": "svg",
+      "size_bytes": 300,
+      "sha256": "f10a65f826942feb60a4ef00a2f7de24c1cf948d2c8d56dc25ef8c6376fbcc15"
+    },
+    {
+      "path": "assets\\special\\original-poster.svg",
+      "filename": "original-poster.svg",
+      "format": "svg",
+      "size_bytes": 299,
+      "sha256": "e757f4dec099e4215522222cc8b68a9d4d39ed175d93578fa58990e5fe0270cf"
+    },
+    {
+      "path": "assets\\special\\server.svg",
+      "filename": "server.svg",
+      "format": "svg",
+      "size_bytes": 300,
+      "sha256": "3dcbd0b6bfd549dbe5598398dcd5b89211f86f59fddcc471a49418a249d94019"
+    },
+    {
+      "path": "assets\\special\\system.svg",
+      "filename": "system.svg",
+      "format": "svg",
+      "size_bytes": 300,
+      "sha256": "f10a65f826942feb60a4ef00a2f7de24c1cf948d2c8d56dc25ef8c6376fbcc15"
+    },
+    {
+      "path": "assets\\special\\verified-app.svg",
+      "filename": "verified-app.svg",
+      "format": "svg",
+      "size_bytes": 303,
+      "sha256": "88cedcf1a7fd66af361d21b349212eb3b00f488d0cd2f8943364293c447fe343"
+    },
+    {
+      "path": "assets\\special\\verified-bot.svg",
+      "filename": "verified-bot.svg",
+      "format": "svg",
+      "size_bytes": 303,
+      "sha256": "d0e3ee227b37b4d7c0e1af5482ded09da555bb04be1002b511c31ea0f10dee13"
+    },
+    {
+      "path": "assets\\streaming\\breakout.svg",
+      "filename": "breakout.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "2e106f21b122f4d13b64578a56f39290128d5e06ae0189bead733cb9e89b5491"
+    },
+    {
+      "path": "assets\\streaming\\fledgling.svg",
+      "filename": "fledgling.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "a27582e0bfc1caf127f01ce7546bbc036e0f69ae64301c7ee8e0fc91ffac0175"
+    },
+    {
+      "path": "assets\\streaming\\headliner.svg",
+      "filename": "headliner.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "f4b8a90b9a3998b8650f57523d8368dd27a09eeb9ac7185d223b8d44b377d177"
+    },
+    {
+      "path": "assets\\streaming\\newcomer.svg",
+      "filename": "newcomer.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "db56fe64be4851e89957b91ea7f413d6155f56f8aa688ab61254e24b58cae7e8"
+    },
+    {
+      "path": "assets\\streaming\\phenomenon.svg",
+      "filename": "phenomenon.svg",
+      "format": "svg",
+      "size_bytes": 404,
+      "sha256": "39d42a934384fa91f6eb64a3dff82d6e24c2e466b022b77b6542b2f768c3d60b"
+    },
+    {
+      "path": "assets\\streaming\\sensation.svg",
+      "filename": "sensation.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "c6907b09427c07086cfa6bb8080be5d2bae01b470c73dbd5fb633d463f7e3ee7"
+    },
+    {
+      "path": "assets\\streaming\\standout.svg",
+      "filename": "standout.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "76f79f8c679215e2f2b3302a35af5711964607578664f191fa9abaf22ecde102"
+    },
+    {
+      "path": "assets\\streaming\\star.svg",
+      "filename": "star.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "a029367043629022156451c234e06137bb9fb3afd050c7611df212ea43dcea8c"
+    },
+    {
+      "path": "assets\\streaming\\trendsetter.svg",
+      "filename": "trendsetter.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "eaa1dad36b29b476facdf9d70e7a3d7a4398fd5fc5a3f1cc9d3892fd15d1643e"
+    },
+    {
+      "path": "assets\\streaming\\visionary.svg",
+      "filename": "visionary.svg",
+      "format": "svg",
+      "size_bytes": 403,
+      "sha256": "b98fde71298944e0624ab19eb6edf2ed06d28a62a788f9f4943fa9b568b37c5d"
+    },
+    {
+      "path": "assets\\subscriptions\\bronze.svg",
+      "filename": "bronze.svg",
+      "format": "svg",
+      "size_bytes": 6773,
+      "sha256": "b2e4906ac7902de8f012c32128af609817660346440d9ad5a5f6bb25f54ecc9a"
+    },
+    {
+      "path": "assets\\subscriptions\\diamond.svg",
+      "filename": "diamond.svg",
+      "format": "svg",
+      "size_bytes": 19529,
+      "sha256": "00b1f68e0b35652d5412f8c122e4e3657c2abe70a26bc4ec30c4edd808f897e0"
+    },
+    {
+      "path": "assets\\subscriptions\\emerald.svg",
+      "filename": "emerald.svg",
+      "format": "svg",
+      "size_bytes": 19375,
+      "sha256": "2ecf08c253e3bed566984d4bf260de9785602b97360021b426125ec40a9ce6c8"
+    },
+    {
+      "path": "assets\\subscriptions\\gold.svg",
+      "filename": "gold.svg",
+      "format": "svg",
+      "size_bytes": 10285,
+      "sha256": "55320888fef102d33ad4c2f976c914b8262c37a6a87689c847e075a4bd6a3921"
+    },
+    {
       "path": "assets\\subscriptions\\nitro_svg_12m.svg",
       "filename": "nitro_svg_12m.svg",
       "format": "svg",
@@ -455,6 +1197,223 @@
       "format": "svg",
       "size_bytes": 30101,
       "sha256": "130ec9a72ff3265fc287e343053ce04cc775dded969683ed95d4c743dcec2f34"
+    },
+    {
+      "path": "assets\\subscriptions\\opal.svg",
+      "filename": "opal.svg",
+      "format": "svg",
+      "size_bytes": 30101,
+      "sha256": "130ec9a72ff3265fc287e343053ce04cc775dded969683ed95d4c743dcec2f34"
+    },
+    {
+      "path": "assets\\subscriptions\\platinum.svg",
+      "filename": "platinum.svg",
+      "format": "svg",
+      "size_bytes": 12673,
+      "sha256": "45353b0608f149e2294b46f2ec4a6a5dfce5020b9a83758b7cc935755d956c07"
+    },
+    {
+      "path": "assets\\subscriptions\\ruby.svg",
+      "filename": "ruby.svg",
+      "format": "svg",
+      "size_bytes": 24560,
+      "sha256": "f306ce036aa2687f24cef5237171bd9445176f756a8d5bfcc5f550fb0d9b7043"
+    },
+    {
+      "path": "assets\\subscriptions\\silver.svg",
+      "filename": "silver.svg",
+      "format": "svg",
+      "size_bytes": 9080,
+      "sha256": "daa121d95d3f2e000102aeacbefdf7a143acfc393cd3d02560ac00d8d8d2afa6"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\bronze.png",
+      "filename": "bronze.png",
+      "format": "png",
+      "size_bytes": 6811,
+      "sha256": "6509de6d359034ecef16791aec821db9052a495005ed57c463a71c75d7a19505"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\bronze.svg",
+      "filename": "bronze.svg",
+      "format": "svg",
+      "size_bytes": 6811,
+      "sha256": "6509de6d359034ecef16791aec821db9052a495005ed57c463a71c75d7a19505"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\diamond.png",
+      "filename": "diamond.png",
+      "format": "png",
+      "size_bytes": 19657,
+      "sha256": "041bb59ebfee4e4a7bc613a079c67c3969998ab7939e60d0da6f1d2cb876077b"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\diamond.svg",
+      "filename": "diamond.svg",
+      "format": "svg",
+      "size_bytes": 19657,
+      "sha256": "041bb59ebfee4e4a7bc613a079c67c3969998ab7939e60d0da6f1d2cb876077b"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\emerald.png",
+      "filename": "emerald.png",
+      "format": "png",
+      "size_bytes": 19498,
+      "sha256": "12ec5ebcea1b0c0e90043c5333ba351720e87669ae1ec8c21bfd5a83c4b40a2b"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\emerald.svg",
+      "filename": "emerald.svg",
+      "format": "svg",
+      "size_bytes": 19498,
+      "sha256": "12ec5ebcea1b0c0e90043c5333ba351720e87669ae1ec8c21bfd5a83c4b40a2b"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\fire.png",
+      "filename": "fire.png",
+      "format": "png",
+      "size_bytes": 30296,
+      "sha256": "753cf3bc32bc4c2fa48a2b23df56f6fe587085f94883974f0cb57face932faee"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\fire.svg",
+      "filename": "fire.svg",
+      "format": "svg",
+      "size_bytes": 30296,
+      "sha256": "753cf3bc32bc4c2fa48a2b23df56f6fe587085f94883974f0cb57face932faee"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\gold.png",
+      "filename": "gold.png",
+      "format": "png",
+      "size_bytes": 10342,
+      "sha256": "146584b8abca4d4cd89224d2213dd357fdb8ef254fa01f61ee5799f2d3d9676b"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\gold.svg",
+      "filename": "gold.svg",
+      "format": "svg",
+      "size_bytes": 10342,
+      "sha256": "146584b8abca4d4cd89224d2213dd357fdb8ef254fa01f61ee5799f2d3d9676b"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\opal.png",
+      "filename": "opal.png",
+      "format": "png",
+      "size_bytes": 30296,
+      "sha256": "753cf3bc32bc4c2fa48a2b23df56f6fe587085f94883974f0cb57face932faee"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\opal.svg",
+      "filename": "opal.svg",
+      "format": "svg",
+      "size_bytes": 30296,
+      "sha256": "753cf3bc32bc4c2fa48a2b23df56f6fe587085f94883974f0cb57face932faee"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\platinum.png",
+      "filename": "platinum.png",
+      "format": "png",
+      "size_bytes": 12752,
+      "sha256": "3268d5f05e7376254da53515850d1cffc337b76318f760aa4c44a9257408736a"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\platinum.svg",
+      "filename": "platinum.svg",
+      "format": "svg",
+      "size_bytes": 12752,
+      "sha256": "3268d5f05e7376254da53515850d1cffc337b76318f760aa4c44a9257408736a"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\ruby.png",
+      "filename": "ruby.png",
+      "format": "png",
+      "size_bytes": 24727,
+      "sha256": "6c2aa095ddcb6f7ea6fc808880af84ed3c8624d4725c75886440154183a5f3ed"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\ruby.svg",
+      "filename": "ruby.svg",
+      "format": "svg",
+      "size_bytes": 24727,
+      "sha256": "6c2aa095ddcb6f7ea6fc808880af84ed3c8624d4725c75886440154183a5f3ed"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\silver.png",
+      "filename": "silver.png",
+      "format": "png",
+      "size_bytes": 9127,
+      "sha256": "80995dd8acac5f6752644f4f871e5265b17fd29ac77a44be2a2c2f58a1791f21"
+    },
+    {
+      "path": "assets\\subscriptions\\badges\\silver.svg",
+      "filename": "silver.svg",
+      "format": "svg",
+      "size_bytes": 9127,
+      "sha256": "80995dd8acac5f6752644f4f871e5265b17fd29ac77a44be2a2c2f58a1791f21"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\bronze.svg",
+      "filename": "bronze.svg",
+      "format": "svg",
+      "size_bytes": 6811,
+      "sha256": "6509de6d359034ecef16791aec821db9052a495005ed57c463a71c75d7a19505"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\diamond.svg",
+      "filename": "diamond.svg",
+      "format": "svg",
+      "size_bytes": 19657,
+      "sha256": "041bb59ebfee4e4a7bc613a079c67c3969998ab7939e60d0da6f1d2cb876077b"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\emerald.svg",
+      "filename": "emerald.svg",
+      "format": "svg",
+      "size_bytes": 19498,
+      "sha256": "12ec5ebcea1b0c0e90043c5333ba351720e87669ae1ec8c21bfd5a83c4b40a2b"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\fire.svg",
+      "filename": "fire.svg",
+      "format": "svg",
+      "size_bytes": 30296,
+      "sha256": "753cf3bc32bc4c2fa48a2b23df56f6fe587085f94883974f0cb57face932faee"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\gold.svg",
+      "filename": "gold.svg",
+      "format": "svg",
+      "size_bytes": 10342,
+      "sha256": "146584b8abca4d4cd89224d2213dd357fdb8ef254fa01f61ee5799f2d3d9676b"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\opal.svg",
+      "filename": "opal.svg",
+      "format": "svg",
+      "size_bytes": 30296,
+      "sha256": "753cf3bc32bc4c2fa48a2b23df56f6fe587085f94883974f0cb57face932faee"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\platinum.svg",
+      "filename": "platinum.svg",
+      "format": "svg",
+      "size_bytes": 12752,
+      "sha256": "3268d5f05e7376254da53515850d1cffc337b76318f760aa4c44a9257408736a"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\ruby.svg",
+      "filename": "ruby.svg",
+      "format": "svg",
+      "size_bytes": 24727,
+      "sha256": "6c2aa095ddcb6f7ea6fc808880af84ed3c8624d4725c75886440154183a5f3ed"
+    },
+    {
+      "path": "assets\\subscriptions\\legacy\\silver.svg",
+      "filename": "silver.svg",
+      "format": "svg",
+      "size_bytes": 9127,
+      "sha256": "80995dd8acac5f6752644f4f871e5265b17fd29ac77a44be2a2c2f58a1791f21"
     }
   ]
 }

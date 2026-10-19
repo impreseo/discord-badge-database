@@ -204,12 +204,12 @@ Badges that eligible users, server owners, or bot creators can currently acquire
 ### General User Badges
 | Badge | Name | Earning Method | API Flag |
 | :---: | :--- | :--- | :---: |
-| <img src="/assets/hype-squad-bravery.svg" width="36" height="36" alt="HypeSquad Bravery" /> | **HypeSquad Bravery** | Take the in-app quiz in User Settings > HypeSquad on Desktop/Web. Free and instant. | `64` (`1<<6`) |
-| <img src="/assets/hype-squad-brilliance.svg" width="36" height="36" alt="HypeSquad Brilliance" /> | **HypeSquad Brilliance** | Complete the 5-question personality assessment matching Brilliance traits. Free and instant. | `128` (`1<<7`) |
-| <img src="/assets/hype-squad-balance.svg" width="36" height="36" alt="HypeSquad Balance" /> | **HypeSquad Balance** | Complete the 5-question personality assessment matching Balance traits. Free and instant. | `256` (`1<<8`) |
-| <img src="/assets/discord-nitro.svg" width="36" height="36" alt="Discord Nitro" /> | **Discord Nitro** | Subscribe to Discord Nitro ($9.99/mo). Evolves with subscription duration. | — |
-| <img src="/assets/discord-nitro-basic.svg" width="36" height="36" alt="Discord Nitro Basic" /> | **Discord Nitro Basic** | Subscribe to Discord Nitro Basic ($2.99/mo). | — |
-| <img src="/assets/boosts/discord-boost-1.svg" width="36" height="36" alt="Server Booster" /> | **Server Booster** | Boost any Discord server. Badge evolves from 1 Month through 2+ Years. | — |
+| <img src="assets/hype-squad-bravery.svg" width="36" height="36" alt="HypeSquad Bravery" /> | **HypeSquad Bravery** | Take the in-app quiz in User Settings > HypeSquad on Desktop/Web. Free and instant. | `64` (`1<<6`) |
+| <img src="assets/hype-squad-brilliance.svg" width="36" height="36" alt="HypeSquad Brilliance" /> | **HypeSquad Brilliance** | Complete the 5-question personality assessment matching Brilliance traits. Free and instant. | `128` (`1<<7`) |
+| <img src="assets/hype-squad-balance.svg" width="36" height="36" alt="HypeSquad Balance" /> | **HypeSquad Balance** | Complete the 5-question personality assessment matching Balance traits. Free and instant. | `256` (`1<<8`) |
+| <img src="assets/discord-nitro.svg" width="36" height="36" alt="Discord Nitro" /> | **Discord Nitro** | Subscribe to Discord Nitro ($9.99/mo). Evolves with subscription duration. | — |
+| <img src="assets/discord-nitro-basic.svg" width="36" height="36" alt="Discord Nitro Basic" /> | **Discord Nitro Basic** | Subscribe to Discord Nitro Basic ($2.99/mo). | — |
+| <img src="assets/boosts/discord-boost-1.svg" width="36" height="36" alt="Server Booster" /> | **Server Booster** | Boost any Discord server. Badge evolves from 1 Month through 2+ Years. | — |
 
 ---
 
@@ -219,11 +219,11 @@ Badges that require maintaining strict ongoing conditions, ownership, or invitat
 
 | Badge | Name | Eligibility Conditions & Maintenance Rules | API Flag |
 | :---: | :--- | :--- | :---: |
-| <img src="/assets/active-developer.svg" width="36" height="36" alt="Active Developer" /> | **Active Developer** | Own an app that executed at least 1 global application command in the last 30 days. Must be claimed in Developer Portal. Lapses after 60 days without command traffic. | `4194304` (`1<<22`) |
-| <img src="/assets/discord-partner.svg" width="36" height="36" alt="Partnered Server Owner" /> | **Partnered Server Owner** | Own a server accepted into the Discord Partner Program. If ownership is transferred, the badge dynamically moves to the new owner. Direct new applications paused. | `2` (`1<<1`) |
-| <img src="/assets/discord-bug-hunter-green.svg" width="36" height="36" alt="Bug Hunter Tier 1" /> | **Bug Hunter (Tier 1)** | Active membership in Discord Testers community; submit approved, reproducible bug reports. | `8` (`1<<3`) |
-| <img src="/assets/discord-bug-hunter-gold.svg" width="36" height="36" alt="Bug Hunter Tier 2" /> | **Bug Hunter (Tier 2)** | Top-tier bug triage and critical security/regression discoveries in Discord Testers. | `16384` (`1<<14`) |
-| <img src="/assets/hype-squad-events.svg" width="36" height="36" alt="HypeSquad Events" /> | **HypeSquad Events Coordinator** | Formerly accepted event coordinators hosting offline conventions. New applications paused. | `4` (`1<<2`) |
+| <img src="assets/active-developer.svg" width="36" height="36" alt="Active Developer" /> | **Active Developer** | Own an app that executed at least 1 global application command in the last 30 days. Must be claimed in Developer Portal. Lapses after 60 days without command traffic. | `4194304` (`1<<22`) |
+| <img src="assets/discord-partner.svg" width="36" height="36" alt="Partnered Server Owner" /> | **Partnered Server Owner** | Own a server accepted into the Discord Partner Program. If ownership is transferred, the badge dynamically moves to the new owner. Direct new applications paused. | `2` (`1<<1`) |
+| <img src="assets/discord-bug-hunter-green.svg" width="36" height="36" alt="Bug Hunter Tier 1" /> | **Bug Hunter (Tier 1)** | Active membership in Discord Testers community; submit approved, reproducible bug reports. | `8` (`1<<3`) |
+| <img src="assets/discord-bug-hunter-gold.svg" width="36" height="36" alt="Bug Hunter Tier 2" /> | **Bug Hunter (Tier 2)** | Top-tier bug triage and critical security/regression discoveries in Discord Testers. | `16384` (`1<<14`) |
+| <img src="assets/hype-squad-events.svg" width="36" height="36" alt="HypeSquad Events" /> | **HypeSquad Events Coordinator** | Formerly accepted event coordinators hosting offline conventions. New applications paused. | `4` (`1<<2`) |
 
 ---
 
@@ -233,7 +233,7 @@ Badges distributed during promotional gaming campaigns and rotating events:
 
 | Badge | Name | Campaign Description & Rules | Availability Window |
 | :---: | :--- | :--- | :--- |
-| <img src="/assets/quest.png" width="36" height="36" alt="Discord Quest" /> | **Discord Quest Badge** | Stream a featured partner game (e.g. Fortnite, Valorant, Genshin Impact) to a voice channel for 15+ minutes while enrolled in the active Quest in User Settings > Gift Inventory. | Rotating weekly campaigns |
+| <img src="assets/quest.png" width="36" height="36" alt="Discord Quest" /> | **Discord Quest Badge** | Stream a featured partner game (e.g. Fortnite, Valorant, Genshin Impact) to a voice channel for 15+ minutes while enrolled in the active Quest in User Settings > Gift Inventory. | Rotating weekly campaigns |
 
 ---
 
@@ -243,9 +243,9 @@ Permanently retired badges preserved for existing holders:
 
 | Badge | Name | Retirement Date | Cutoff & Historical Requirement | API Flag |
 | :---: | :--- | :---: | :--- | :---: |
-| <img src="/assets/discord-early-supporter.svg" width="36" height="36" alt="Early Supporter" /> | **Early Supporter** | **2018-10-10** (7:20 PM PDT) | Completed a paid Nitro purchase before Discord split Nitro into multiple tiers. | `512` (`1<<9`) |
-| <img src="/assets/discord-bot-dev.svg" width="36" height="36" alt="Early Verified Bot Dev" /> | **Early Verified Bot Developer** | **2020-08-19** | Owned an identity-verified bot in 75+ servers prior to August 19, 2020. | `131072` (`1<<17`) |
-| <img src="/assets/discord-mod.svg" width="36" height="36" alt="Moderator Programs Alumni" /> | **Moderator Programs Alumni** | **2022-12-01** | Passed the Discord Certified Moderator Academy exam and served in the DMC before program archival. | `262144` (`1<<18`) |
+| <img src="assets/discord-early-supporter.svg" width="36" height="36" alt="Early Supporter" /> | **Early Supporter** | **2018-10-10** (7:20 PM PDT) | Completed a paid Nitro purchase before Discord split Nitro into multiple tiers. | `512` (`1<<9`) |
+| <img src="assets/discord-bot-dev.svg" width="36" height="36" alt="Early Verified Bot Dev" /> | **Early Verified Bot Developer** | **2020-08-19** | Owned an identity-verified bot in 75+ servers prior to August 19, 2020. | `131072` (`1<<17`) |
+| <img src="assets/discord-mod.svg" width="36" height="36" alt="Moderator Programs Alumni" /> | **Moderator Programs Alumni** | **2022-12-01** | Passed the Discord Certified Moderator Academy exam and served in the DMC before program archival. | `262144` (`1<<18`) |
 
 ---
 
@@ -255,10 +255,10 @@ Special historical occurrences, transition collectibles, and rare event artifact
 
 | Badge | Name | Historical Context | Documented Event |
 | :---: | :--- | :--- | :--- |
-| <img src="/assets/username.png" width="36" height="36" alt="Legacy Username" /> | **Originally Known As** | Awarded during the May 2023 username migration; hovers over user cards to show original `#1234` discriminator tag. | May-Dec 2023 Migration |
-| <img src="/assets/golden-hype-squad-balance.svg" width="36" height="36" alt="Golden Balance" /> | **Golden Animated HypeSquad Balance** | Awarded to House of Balance after winning the Snowsgiving 2019 charity fundraiser. Only animated user badge in Discord history (Dec 2019 - Feb 2020). | Snowsgiving 2019 |
-| <img src="/assets/koth-hype-squad-balance.svg" width="36" height="36" alt="King of the Hat" /> | **King of the Hat Balance** | Collaborative crown-adorned badge held by Balance members during February 2019 tournament promotion. | Feb 2019 Collaboration |
-| <img src="/assets/special/discord-lootbox.svg" width="36" height="36" alt="Lootbox Clown" /> | **Discord Lootbox Clown** | Unlocked by collecting all 9 parody cosmetics in the April Fools 2024 Lootbox simulator. | April 1-8, 2024 |
+| <img src="assets/username.png" width="36" height="36" alt="Legacy Username" /> | **Originally Known As** | Awarded during the May 2023 username migration; hovers over user cards to show original `#1234` discriminator tag. | May-Dec 2023 Migration |
+| <img src="assets/golden-hype-squad-balance.svg" width="36" height="36" alt="Golden Balance" /> | **Golden Animated HypeSquad Balance** | Awarded to House of Balance after winning the Snowsgiving 2019 charity fundraiser. Only animated user badge in Discord history (Dec 2019 - Feb 2020). | Snowsgiving 2019 |
+| <img src="assets/koth-hype-squad-balance.svg" width="36" height="36" alt="King of the Hat" /> | **King of the Hat Balance** | Collaborative crown-adorned badge held by Balance members during February 2019 tournament promotion. | Feb 2019 Collaboration |
+| <img src="assets/special/discord-lootbox.svg" width="36" height="36" alt="Lootbox Clown" /> | **Discord Lootbox Clown** | Unlocked by collecting all 9 parody cosmetics in the April Fools 2024 Lootbox simulator. | April 1-8, 2024 |
 
 ---
 
@@ -291,68 +291,68 @@ To maintain rigorous digital archive standards:
 ### A. Account Age Milestones (10 Tiers)
 | Tier | Title | Icon | Milestone Threshold |
 | :---: | :--- | :---: | :--- |
-| 1 | **Seed** | <img src="/assets/account-age/seed.svg" width="32" height="32" alt="Seed" /> | 1 Year on Discord |
-| 2 | **Sprout** | <img src="/assets/account-age/sprout.svg" width="32" height="32" alt="Sprout" /> | 2 Years on Discord |
-| 3 | **Bud** | <img src="/assets/account-age/bud.svg" width="32" height="32" alt="Bud" /> | 3 Years on Discord |
-| 4 | **Sapling** | <img src="/assets/account-age/sapling.svg" width="32" height="32" alt="Sapling" /> | 4 Years on Discord |
-| 5 | **Blossom** | <img src="/assets/account-age/blossom.svg" width="32" height="32" alt="Blossom" /> | 5 Years on Discord |
-| 6 | **Redwood** | <img src="/assets/account-age/redwood.svg" width="32" height="32" alt="Redwood" /> | 6 Years on Discord |
-| 7 | **Sequoia** | <img src="/assets/account-age/sequoia.svg" width="32" height="32" alt="Sequoia" /> | 7 Years on Discord |
-| 8 | **Bristlecone** | <img src="/assets/account-age/bristlecone.svg" width="32" height="32" alt="Bristlecone" /> | 8 Years on Discord |
-| 9 | **Primordial** | <img src="/assets/account-age/primordial.svg" width="32" height="32" alt="Primordial" /> | 9 Years on Discord |
-| 10 | **Stromatolite** | <img src="/assets/account-age/stromatolite.svg" width="32" height="32" alt="Stromatolite" /> | 10+ Years on Discord |
+| 1 | **Seed** | <img src="assets/account-age/seed.svg" width="32" height="32" alt="Seed" /> | 1 Year on Discord |
+| 2 | **Sprout** | <img src="assets/account-age/sprout.svg" width="32" height="32" alt="Sprout" /> | 2 Years on Discord |
+| 3 | **Bud** | <img src="assets/account-age/bud.svg" width="32" height="32" alt="Bud" /> | 3 Years on Discord |
+| 4 | **Sapling** | <img src="assets/account-age/sapling.svg" width="32" height="32" alt="Sapling" /> | 4 Years on Discord |
+| 5 | **Blossom** | <img src="assets/account-age/blossom.svg" width="32" height="32" alt="Blossom" /> | 5 Years on Discord |
+| 6 | **Redwood** | <img src="assets/account-age/redwood.svg" width="32" height="32" alt="Redwood" /> | 6 Years on Discord |
+| 7 | **Sequoia** | <img src="assets/account-age/sequoia.svg" width="32" height="32" alt="Sequoia" /> | 7 Years on Discord |
+| 8 | **Bristlecone** | <img src="assets/account-age/bristlecone.svg" width="32" height="32" alt="Bristlecone" /> | 8 Years on Discord |
+| 9 | **Primordial** | <img src="assets/account-age/primordial.svg" width="32" height="32" alt="Primordial" /> | 9 Years on Discord |
+| 10 | **Stromatolite** | <img src="assets/account-age/stromatolite.svg" width="32" height="32" alt="Stromatolite" /> | 10+ Years on Discord |
 
 ### B. Game Time Milestones (10 Tiers)
 | Tier | Title | Icon | Milestone Threshold |
 | :---: | :--- | :---: | :--- |
-| 1 | **Casual** | <img src="/assets/game-time/casual.svg" width="32" height="32" alt="Casual" /> | 5 Hours detected gameplay |
-| 2 | **Recreational** | <img src="/assets/game-time/recreational.svg" width="32" height="32" alt="Recreational" /> | 20 Hours detected gameplay |
-| 3 | **Committed** | <img src="/assets/game-time/committed.svg" width="32" height="32" alt="Committed" /> | 50 Hours detected gameplay |
-| 4 | **Dedicated** | <img src="/assets/game-time/dedicated.svg" width="32" height="32" alt="Dedicated" /> | 100 Hours detected gameplay |
-| 5 | **Devoted** | <img src="/assets/game-time/devoted.svg" width="32" height="32" alt="Devoted" /> | 250 Hours detected gameplay |
-| 6 | **Seasoned** | <img src="/assets/game-time/seasoned.svg" width="32" height="32" alt="Seasoned" /> | 500 Hours detected gameplay |
-| 7 | **Serious** | <img src="/assets/game-time/serious.svg" width="32" height="32" alt="Serious" /> | 1,000 Hours detected gameplay |
-| 8 | **Ironclad** | <img src="/assets/game-time/ironclad.svg" width="32" height="32" alt="Ironclad" /> | 2,500 Hours detected gameplay |
-| 9 | **Unshakeable** | <img src="/assets/game-time/unshakeable.svg" width="32" height="32" alt="Unshakeable" /> | 5,000 Hours detected gameplay |
-| 10 | **Eternal** | <img src="/assets/game-time/eternal.svg" width="32" height="32" alt="Eternal" /> | 10,000+ Hours detected gameplay |
+| 1 | **Casual** | <img src="assets/game-time/casual.svg" width="32" height="32" alt="Casual" /> | 5 Hours detected gameplay |
+| 2 | **Recreational** | <img src="assets/game-time/recreational.svg" width="32" height="32" alt="Recreational" /> | 20 Hours detected gameplay |
+| 3 | **Committed** | <img src="assets/game-time/committed.svg" width="32" height="32" alt="Committed" /> | 50 Hours detected gameplay |
+| 4 | **Dedicated** | <img src="assets/game-time/dedicated.svg" width="32" height="32" alt="Dedicated" /> | 100 Hours detected gameplay |
+| 5 | **Devoted** | <img src="assets/game-time/devoted.svg" width="32" height="32" alt="Devoted" /> | 250 Hours detected gameplay |
+| 6 | **Seasoned** | <img src="assets/game-time/seasoned.svg" width="32" height="32" alt="Seasoned" /> | 500 Hours detected gameplay |
+| 7 | **Serious** | <img src="assets/game-time/serious.svg" width="32" height="32" alt="Serious" /> | 1,000 Hours detected gameplay |
+| 8 | **Ironclad** | <img src="assets/game-time/ironclad.svg" width="32" height="32" alt="Ironclad" /> | 2,500 Hours detected gameplay |
+| 9 | **Unshakeable** | <img src="assets/game-time/unshakeable.svg" width="32" height="32" alt="Unshakeable" /> | 5,000 Hours detected gameplay |
+| 10 | **Eternal** | <img src="assets/game-time/eternal.svg" width="32" height="32" alt="Eternal" /> | 10,000+ Hours detected gameplay |
 
 ### C. Game Variety Milestones (10 Tiers)
 | Tier | Title | Icon | Unique Games Detected |
 | :---: | :--- | :---: | :--- |
-| 1 | **Sampler** | <img src="/assets/game-variety/sampler.svg" width="32" height="32" alt="Sampler" /> | 2 Distinct Games |
-| 2 | **Dabbler** | <img src="/assets/game-variety/dabbler.svg" width="32" height="32" alt="Dabbler" /> | 5 Distinct Games |
-| 3 | **Explorer** | <img src="/assets/game-variety/explorer.svg" width="32" height="32" alt="Explorer" /> | 10 Distinct Games |
-| 4 | **Enthusiast** | <img src="/assets/game-variety/enthusiast.svg" width="32" height="32" alt="Enthusiast" /> | 20 Distinct Games |
-| 5 | **Adventurer** | <img src="/assets/game-variety/adventurer.svg" width="32" height="32" alt="Adventurer" /> | 35 Distinct Games |
-| 6 | **Voyager** | <img src="/assets/game-variety/voyager.svg" width="32" height="32" alt="Voyager" /> | 50 Distinct Games |
-| 7 | **Ranger** | <img src="/assets/game-variety/ranger.svg" width="32" height="32" alt="Ranger" /> | 75 Distinct Games |
-| 8 | **Polymath** | <img src="/assets/game-variety/polymath.svg" width="32" height="32" alt="Polymath" /> | 100 Distinct Games |
-| 9 | **Maverick** | <img src="/assets/game-variety/maverick.svg" width="32" height="32" alt="Maverick" /> | 150 Distinct Games |
-| 10 | **Universalist** | <img src="/assets/game-variety/universalist.svg" width="32" height="32" alt="Universalist" /> | 200+ Distinct Games |
+| 1 | **Sampler** | <img src="assets/game-variety/sampler.svg" width="32" height="32" alt="Sampler" /> | 2 Distinct Games |
+| 2 | **Dabbler** | <img src="assets/game-variety/dabbler.svg" width="32" height="32" alt="Dabbler" /> | 5 Distinct Games |
+| 3 | **Explorer** | <img src="assets/game-variety/explorer.svg" width="32" height="32" alt="Explorer" /> | 10 Distinct Games |
+| 4 | **Enthusiast** | <img src="assets/game-variety/enthusiast.svg" width="32" height="32" alt="Enthusiast" /> | 20 Distinct Games |
+| 5 | **Adventurer** | <img src="assets/game-variety/adventurer.svg" width="32" height="32" alt="Adventurer" /> | 35 Distinct Games |
+| 6 | **Voyager** | <img src="assets/game-variety/voyager.svg" width="32" height="32" alt="Voyager" /> | 50 Distinct Games |
+| 7 | **Ranger** | <img src="assets/game-variety/ranger.svg" width="32" height="32" alt="Ranger" /> | 75 Distinct Games |
+| 8 | **Polymath** | <img src="assets/game-variety/polymath.svg" width="32" height="32" alt="Polymath" /> | 100 Distinct Games |
+| 9 | **Maverick** | <img src="assets/game-variety/maverick.svg" width="32" height="32" alt="Maverick" /> | 150 Distinct Games |
+| 10 | **Universalist** | <img src="assets/game-variety/universalist.svg" width="32" height="32" alt="Universalist" /> | 200+ Distinct Games |
 
 ### D. Streaming Milestones (10 Tiers)
 | Tier | Title | Icon | Total Broadcast Streams |
 | :---: | :--- | :---: | :--- |
-| 1 | **Newcomer** | <img src="/assets/streaming/newcomer.svg" width="32" height="32" alt="Newcomer" /> | 1 Stream Session |
-| 2 | **Fledgling** | <img src="/assets/streaming/fledgling.svg" width="32" height="32" alt="Fledgling" /> | 5 Stream Sessions |
-| 3 | **Breakout** | <img src="/assets/streaming/breakout.svg" width="32" height="32" alt="Breakout" /> | 15 Stream Sessions |
-| 4 | **Standout** | <img src="/assets/streaming/standout.svg" width="32" height="32" alt="Standout" /> | 30 Stream Sessions |
-| 5 | **Sensation** | <img src="/assets/streaming/sensation.svg" width="32" height="32" alt="Sensation" /> | 50 Stream Sessions |
-| 6 | **Star** | <img src="/assets/streaming/star.svg" width="32" height="32" alt="Star" /> | 100 Stream Sessions |
-| 7 | **Headliner** | <img src="/assets/streaming/headliner.svg" width="32" height="32" alt="Headliner" /> | 200 Stream Sessions |
-| 8 | **Trendsetter** | <img src="/assets/streaming/trendsetter.svg" width="32" height="32" alt="Trendsetter" /> | 350 Stream Sessions |
-| 9 | **Visionary** | <img src="/assets/streaming/visionary.svg" width="32" height="32" alt="Visionary" /> | 500 Stream Sessions |
-| 10 | **Phenomenon** | <img src="/assets/streaming/phenomenon.svg" width="32" height="32" alt="Phenomenon" /> | 1,000+ Stream Sessions |
+| 1 | **Newcomer** | <img src="assets/streaming/newcomer.svg" width="32" height="32" alt="Newcomer" /> | 1 Stream Session |
+| 2 | **Fledgling** | <img src="assets/streaming/fledgling.svg" width="32" height="32" alt="Fledgling" /> | 5 Stream Sessions |
+| 3 | **Breakout** | <img src="assets/streaming/breakout.svg" width="32" height="32" alt="Breakout" /> | 15 Stream Sessions |
+| 4 | **Standout** | <img src="assets/streaming/standout.svg" width="32" height="32" alt="Standout" /> | 30 Stream Sessions |
+| 5 | **Sensation** | <img src="assets/streaming/sensation.svg" width="32" height="32" alt="Sensation" /> | 50 Stream Sessions |
+| 6 | **Star** | <img src="assets/streaming/star.svg" width="32" height="32" alt="Star" /> | 100 Stream Sessions |
+| 7 | **Headliner** | <img src="assets/streaming/headliner.svg" width="32" height="32" alt="Headliner" /> | 200 Stream Sessions |
+| 8 | **Trendsetter** | <img src="assets/streaming/trendsetter.svg" width="32" height="32" alt="Trendsetter" /> | 350 Stream Sessions |
+| 9 | **Visionary** | <img src="assets/streaming/visionary.svg" width="32" height="32" alt="Visionary" /> | 500 Stream Sessions |
+| 10 | **Phenomenon** | <img src="assets/streaming/phenomenon.svg" width="32" height="32" alt="Phenomenon" /> | 1,000+ Stream Sessions |
 
 ### E. Gifting Milestones (6 Tiers)
 | Tier | Title | Icon | Gifts Sent Requirement |
 | :---: | :--- | :---: | :--- |
-| 1 | **Patron** | <img src="/assets/gifting/patron.png" width="32" height="32" alt="Patron" /> | Send 1 Shop / Wishlist Gift |
-| 2 | **Champion** | <img src="/assets/gifting/champion.png" width="32" height="32" alt="Champion" /> | Send 2 Shop / Wishlist Gifts |
-| 3 | **Luminary** | <img src="/assets/gifting/luminary.png" width="32" height="32" alt="Luminary" /> | Send 3 Shop / Wishlist Gifts |
-| 4 | **Icon** | <img src="/assets/gifting/icon.png" width="32" height="32" alt="Icon" /> | Send 6 Shop / Wishlist Gifts |
-| 5 | **Hero** | <img src="/assets/gifting/hero.png" width="32" height="32" alt="Hero" /> | Send 10 Shop / Wishlist Gifts |
-| 6 | **Legend** | <img src="/assets/gifting/legend.png" width="32" height="32" alt="Legend" /> | Send 20+ Shop / Wishlist Gifts |
+| 1 | **Patron** | <img src="assets/gifting/patron.png" width="32" height="32" alt="Patron" /> | Send 1 Shop / Wishlist Gift |
+| 2 | **Champion** | <img src="assets/gifting/champion.png" width="32" height="32" alt="Champion" /> | Send 2 Shop / Wishlist Gifts |
+| 3 | **Luminary** | <img src="assets/gifting/luminary.png" width="32" height="32" alt="Luminary" /> | Send 3 Shop / Wishlist Gifts |
+| 4 | **Icon** | <img src="assets/gifting/icon.png" width="32" height="32" alt="Icon" /> | Send 6 Shop / Wishlist Gifts |
+| 5 | **Hero** | <img src="assets/gifting/hero.png" width="32" height="32" alt="Hero" /> | Send 10 Shop / Wishlist Gifts |
+| 6 | **Legend** | <img src="assets/gifting/legend.png" width="32" height="32" alt="Legend" /> | Send 20+ Shop / Wishlist Gifts |
 
 ---
 
@@ -376,10 +376,10 @@ Significant visual redesigns documented in the digital archive:
 
 | Badge | Historical / Before Design | Modern / After Design | Notes |
 | :--- | :---: | :---: | :--- |
-| **Discord Partner** | <img src="/assets/old-discord-partner.png" width="48" height="48" alt="Old Partner" /> | <img src="/assets/discord-partner.svg" width="48" height="48" alt="Current Partner" /> | Replaced raster circular shield with geometric vector star on May 31, 2022. |
-| **Moderator Programs** | <img src="/assets/old-discord-mod.svg" width="48" height="48" alt="Certified Mod" /> | <img src="/assets/discord-mod.svg" width="48" height="48" alt="Mod Alumni" /> | Rebranded from Certified Moderator to Alumni on December 1, 2022. |
-| **Discord Nitro** | <img src="/assets/old-discord-nitro.svg" width="48" height="48" alt="Old Nitro" /> | <img src="/assets/discord-nitro.svg" width="48" height="48" alt="Current Nitro" /> | Updated classic rocket saucer silhouette into modern sleek badge geometry in late 2024. |
-| **Bot Tag** | <img src="/assets/special/bot.svg" width="48" height="24" alt="Old Bot Tag" /> | <img src="/assets/special/app.svg" width="48" height="24" alt="New App Tag" /> | Rebranded platform UI label from 'BOT' to 'APP' on April 17, 2024. |
+| **Discord Partner** | <img src="assets/old-discord-partner.png" width="48" height="48" alt="Old Partner" /> | <img src="assets/discord-partner.svg" width="48" height="48" alt="Current Partner" /> | Replaced raster circular shield with geometric vector star on May 31, 2022. |
+| **Moderator Programs** | <img src="assets/old-discord-mod.svg" width="48" height="48" alt="Certified Mod" /> | <img src="assets/discord-mod.svg" width="48" height="48" alt="Mod Alumni" /> | Rebranded from Certified Moderator to Alumni on December 1, 2022. |
+| **Discord Nitro** | <img src="assets/old-discord-nitro.svg" width="48" height="48" alt="Old Nitro" /> | <img src="assets/discord-nitro.svg" width="48" height="48" alt="Current Nitro" /> | Updated classic rocket saucer silhouette into modern sleek badge geometry in late 2024. |
+| **Bot Tag** | <img src="assets/special/bot.svg" width="48" height="24" alt="Old Bot Tag" /> | <img src="assets/special/app.svg" width="48" height="24" alt="New App Tag" /> | Rebranded platform UI label from 'BOT' to 'APP' on April 17, 2024. |
 
 ---
 
@@ -388,13 +388,13 @@ Significant visual redesigns documented in the digital archive:
 ### Server Header Indicators
 | Badge | Appearance | Purpose |
 | :--- | :---: | :--- |
-| **Partnered Server** | <img src="/assets/server/partnered.svg" width="32" height="32" alt="Partner Server" /> | Displayed on Partnered guild headers |
-| **Verified Server** | <img src="/assets/server/verified.svg" width="32" height="32" alt="Verified Server" /> | Displayed on verified game studio / brand server headers |
-| **Staff Server** | <img src="/assets/server/staff.svg" width="32" height="32" alt="Staff Server" /> | Reserved for official corporate Discord servers |
-| **Community Server** | <img src="/assets/server/community-dark.svg" width="32" height="32" alt="Community Server" /> | Displayed when Community features are enabled |
-| **Discoverable Server** | <img src="/assets/server/discoverable-dark.svg" width="32" height="32" alt="Discoverable Server" /> | Displayed when Server Discovery is enabled |
-| **Server Owner Crown** | <img src="/assets/server/crown.svg" width="32" height="32" alt="Crown" /> | Displayed next to designated guild owner in roster |
-| **I'm New Here** | <img src="/assets/server/new-here.svg" width="32" height="32" alt="New Here" /> | Waving hand for 7 days upon joining community servers |
+| **Partnered Server** | <img src="assets/server/partnered.svg" width="32" height="32" alt="Partner Server" /> | Displayed on Partnered guild headers |
+| **Verified Server** | <img src="assets/server/verified.svg" width="32" height="32" alt="Verified Server" /> | Displayed on verified game studio / brand server headers |
+| **Staff Server** | <img src="assets/server/staff.svg" width="32" height="32" alt="Staff Server" /> | Reserved for official corporate Discord servers |
+| **Community Server** | <img src="assets/server/community-dark.svg" width="32" height="32" alt="Community Server" /> | Displayed when Community features are enabled |
+| **Discoverable Server** | <img src="assets/server/discoverable-dark.svg" width="32" height="32" alt="Discoverable Server" /> | Displayed when Server Discovery is enabled |
+| **Server Owner Crown** | <img src="assets/server/crown.svg" width="32" height="32" alt="Crown" /> | Displayed next to designated guild owner in roster |
+| **I'm New Here** | <img src="assets/server/new-here.svg" width="32" height="32" alt="New Here" /> | Waving hand for 7 days upon joining community servers |
 
 ### Guild Clan Tag Icons (41 Verified SVGs)
 Guild clan tag icons provide customizable emblems displayed beside server tags:
@@ -408,9 +408,9 @@ Guild clan tag icons provide customizable emblems displayed beside server tags:
 
 | Badge | Icon | Requirements & API Verification |
 | :--- | :---: | :--- |
-| **Supports Commands** | <img src="/assets/supports-commands.svg" width="36" height="36" alt="Supports Commands" /> | Granted to applications registering global or guild slash commands. Application Flag: `524288` (`1<<19`). |
-| **Uses AutoMod** | <img src="/assets/automod.svg" width="36" height="36" alt="Uses AutoMod" /> | Granted to security apps actively maintaining >= 100 AutoMod rules. Application Flag: `16777216` (`1<<24`). |
-| **App Premium** | <img src="/assets/premium-bot.png" width="36" height="36" alt="Premium App" /> | Granted to apps with active in-app purchase subscriptions in the guild. |
+| **Supports Commands** | <img src="assets/supports-commands.svg" width="36" height="36" alt="Supports Commands" /> | Granted to applications registering global or guild slash commands. Application Flag: `524288` (`1<<19`). |
+| **Uses AutoMod** | <img src="assets/automod.svg" width="36" height="36" alt="Uses AutoMod" /> | Granted to security apps actively maintaining >= 100 AutoMod rules. Application Flag: `16777216` (`1<<24`). |
+| **App Premium** | <img src="assets/premium-bot.png" width="36" height="36" alt="Premium App" /> | Granted to apps with active in-app purchase subscriptions in the guild. |
 
 ---
 
@@ -418,25 +418,25 @@ Guild clan tag icons provide customizable emblems displayed beside server tags:
 
 ### Nitro Tenure Badges (8 Gemstone Milestones)
 Continuous Nitro subscription unlocks evolving milestone badges on user profiles:
-1. **Bronze**: 1 Month (<img src="/assets/subscriptions/bronze.svg" width="20" height="20" alt="Bronze" />)
-2. **Silver**: 3 Months (<img src="/assets/subscriptions/silver.svg" width="20" height="20" alt="Silver" />)
-3. **Gold**: 6 Months (<img src="/assets/subscriptions/gold.svg" width="20" height="20" alt="Gold" />)
-4. **Platinum**: 12 Months / 1 Year (<img src="/assets/subscriptions/platinum.svg" width="20" height="20" alt="Platinum" />)
-5. **Diamond**: 24 Months / 2 Years (<img src="/assets/subscriptions/diamond.svg" width="20" height="20" alt="Diamond" />)
-6. **Emerald**: 36 Months / 3 Years (<img src="/assets/subscriptions/emerald.svg" width="20" height="20" alt="Emerald" />)
-7. **Ruby**: 60 Months / 5 Years (<img src="/assets/subscriptions/ruby.svg" width="20" height="20" alt="Ruby" />)
-8. **Opal**: 72+ Months / 6+ Years (<img src="/assets/subscriptions/opal.svg" width="20" height="20" alt="Opal" />)
+1. **Bronze**: 1 Month (<img src="assets/subscriptions/bronze.svg" width="20" height="20" alt="Bronze" />)
+2. **Silver**: 3 Months (<img src="assets/subscriptions/silver.svg" width="20" height="20" alt="Silver" />)
+3. **Gold**: 6 Months (<img src="assets/subscriptions/gold.svg" width="20" height="20" alt="Gold" />)
+4. **Platinum**: 12 Months / 1 Year (<img src="assets/subscriptions/platinum.svg" width="20" height="20" alt="Platinum" />)
+5. **Diamond**: 24 Months / 2 Years (<img src="assets/subscriptions/diamond.svg" width="20" height="20" alt="Diamond" />)
+6. **Emerald**: 36 Months / 3 Years (<img src="assets/subscriptions/emerald.svg" width="20" height="20" alt="Emerald" />)
+7. **Ruby**: 60 Months / 5 Years (<img src="assets/subscriptions/ruby.svg" width="20" height="20" alt="Ruby" />)
+8. **Opal**: 72+ Months / 6+ Years (<img src="assets/subscriptions/opal.svg" width="20" height="20" alt="Opal" />)
 
 ### Server Boosting Badges (9 Streak Tiers)
-1. **Level 1**: 1 Month (<img src="/assets/boosts/discord-boost-1.svg" width="20" height="20" alt="B1" />)
-2. **Level 2**: 2 Months (<img src="/assets/boosts/discord-boost-2.svg" width="20" height="20" alt="B2" />)
-3. **Level 3**: 3 Months (<img src="/assets/boosts/discord-boost-3.svg" width="20" height="20" alt="B3" />)
-4. **Level 4**: 6 Months (<img src="/assets/boosts/discord-boost-4.svg" width="20" height="20" alt="B4" />)
-5. **Level 5**: 9 Months (<img src="/assets/boosts/discord-boost-5.svg" width="20" height="20" alt="B5" />)
-6. **Level 6**: 12 Months / 1 Year (<img src="/assets/boosts/discord-boost-6.svg" width="20" height="20" alt="B6" />)
-7. **Level 7**: 15 Months (<img src="/assets/boosts/discord-boost-7.svg" width="20" height="20" alt="B7" />)
-8. **Level 8**: 18 Months (<img src="/assets/boosts/discord-boost-8.svg" width="20" height="20" alt="B8" />)
-9. **Level 9**: 24+ Months / 2 Years (<img src="/assets/boosts/discord-boost-9.svg" width="20" height="20" alt="B9" />)
+1. **Level 1**: 1 Month (<img src="assets/boosts/discord-boost-1.svg" width="20" height="20" alt="B1" />)
+2. **Level 2**: 2 Months (<img src="assets/boosts/discord-boost-2.svg" width="20" height="20" alt="B2" />)
+3. **Level 3**: 3 Months (<img src="assets/boosts/discord-boost-3.svg" width="20" height="20" alt="B3" />)
+4. **Level 4**: 6 Months (<img src="assets/boosts/discord-boost-4.svg" width="20" height="20" alt="B4" />)
+5. **Level 5**: 9 Months (<img src="assets/boosts/discord-boost-5.svg" width="20" height="20" alt="B5" />)
+6. **Level 6**: 12 Months / 1 Year (<img src="assets/boosts/discord-boost-6.svg" width="20" height="20" alt="B6" />)
+7. **Level 7**: 15 Months (<img src="assets/boosts/discord-boost-7.svg" width="20" height="20" alt="B7" />)
+8. **Level 8**: 18 Months (<img src="assets/boosts/discord-boost-8.svg" width="20" height="20" alt="B8" />)
+9. **Level 9**: 24+ Months / 2 Years (<img src="assets/boosts/discord-boost-9.svg" width="20" height="20" alt="B9" />)
 
 ---
 
