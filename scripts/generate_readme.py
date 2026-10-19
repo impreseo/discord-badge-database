@@ -50,16 +50,22 @@ def generate():
 
     readme = []
 
+    total_badges = len(badges)
+    total_history = len(history)
+
     # 1. Project Title, Purpose, and Scope
-    readme.append("""# 🛡️ Ultimate Discord Badge Knowledgebase & Digital Archive
+    readme.append(f"""# 🛡️ Ultimate Discord Badge Knowledgebase & Digital Archive
 ### Complete Badge Intelligence, Historical Archive, Obtainability Tracking & Verified Asset Collection
 
-[![Database Validation](https://github.com/discord-badge-knowledgebase/master/actions/workflows/validate.yml/badge.svg)](https://github.com/discord-badge-knowledgebase/master/actions)
-[![Total Badges](https://img.shields.io/badge/Cataloged%20Badges-157-5865F2.svg)](#7-summary-statistics)
+[![Live Web App](https://img.shields.io/badge/Live%20Web%20App-Explore%20Online-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://impreseo.github.io/discord-badge-database/)
+[![Database Validation](https://github.com/impreseo/discord-badge-database/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/impreseo/discord-badge-database/actions)
+[![Total Badges](https://img.shields.io/badge/Cataloged%20Badges-{total_badges}-5865F2.svg)](#7-summary-statistics)
 [![Asset Verification](https://img.shields.io/badge/Verified%20Assets-179%20Files-10B981.svg)](#24-asset-directory--format-guide)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An open-source, evidence-backed knowledgebase, forensic changelog, and digital asset archive preserving the complete history, earning criteria, technical bitfield flags, and high-fidelity vector artwork for every known Discord badge, progression tier, server indicator, and collectible flair.
+
+🌐 **Interactive Web App & Profile Simulator**: [https://impreseo.github.io/discord-badge-database/](https://impreseo.github.io/discord-badge-database/)
 
 ---
 
@@ -75,8 +81,8 @@ An open-source, evidence-backed knowledgebase, forensic changelog, and digital a
 - **Dataset Version**: 2.4.0-master
 - **Schema Specification**: `data/schema.json` (JSON Schema Draft 2020-12 compliant)
 - **Last Crawled & Verified**: **October 18, 2026**
-- **Cataloged Unique Badges & Tags**: **157**
-- **Historical Milestones Documented**: **24**
+- **Cataloged Unique Badges & Tags**: **{total_badges}**
+- **Historical Milestones Documented**: **{total_history}**
 - **Primary Foundational Repositories Cross-Referenced**:
   - [PandaDevOfficial/badges-discord](https://github.com/PandaDevOfficial/badges-discord)
   - [mezotv/discord-badges](https://github.com/mezotv/discord-badges)
