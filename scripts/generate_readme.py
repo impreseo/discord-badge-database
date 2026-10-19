@@ -6,6 +6,14 @@ Compiles the comprehensive, evidence-backed README.md and supporting docs from d
 
 import json
 import os
+import sys
+
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 def load_data():
     with open("data/badges.json", "r", encoding="utf-8") as f:

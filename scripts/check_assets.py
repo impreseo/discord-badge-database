@@ -5,8 +5,16 @@ Verifies file existence, SHA-256 checksums, identifies exact binary duplicates, 
 """
 
 import os
+import sys
 import hashlib
 import json
+
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 def check_assets():
     print("Checking assets in assets/ directory...")

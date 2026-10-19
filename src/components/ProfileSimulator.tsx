@@ -64,6 +64,28 @@ const PRESET_LOADOUTS: Array<{
   },
 ];
 
+const SafeBadgeIcon: React.FC<{ badge: BadgeItem; className?: string; fallbackSize?: string }> = ({
+  badge,
+  className = "w-4 h-4 object-contain filter drop-shadow",
+  fallbackSize = "w-3 h-3 text-slate-500",
+}) => {
+  const [error, setError] = useState(false);
+  const asset = badge.current_asset_id ? `/${badge.current_asset_id.replace(/^\//, "")}` : null;
+
+  if (!asset || error) {
+    return <Sparkles className={fallbackSize} />;
+  }
+
+  return (
+    <img
+      src={asset}
+      alt={badge.name}
+      onError={() => setError(true)}
+      className={className}
+    />
+  );
+};
+
 export const ProfileSimulator: React.FC<ProfileSimulatorProps> = ({ allBadges }) => {
   const [displayName, setDisplayName] = useState("Discord Explorer");
   const [handle, setHandle] = useState("discord_archivist");
@@ -337,11 +359,7 @@ export const ProfileSimulator: React.FC<ProfileSimulatorProps> = ({ allBadges })
                   >
                     <div className="flex items-center gap-2 min-w-0">
                       <div className="w-5 h-5 rounded bg-[#0f131a] border border-[#222b3e] flex items-center justify-center p-0.5 shrink-0">
-                        {asset ? (
-                          <img src={asset} alt={b.name} className="w-full h-full object-contain" />
-                        ) : (
-                          <Sparkles className="w-3 h-3 text-slate-600" />
-                        )}
+                        <SafeBadgeIcon badge={b} className="w-full h-full object-contain" fallbackSize="w-3 h-3 text-slate-500" />
                       </div>
                       <span className="truncate">{b.name}</span>
                     </div>
@@ -404,13 +422,7 @@ export const ProfileSimulator: React.FC<ProfileSimulatorProps> = ({ allBadges })
                           className="w-5 h-5 flex items-center justify-center cursor-pointer hover:scale-125 transition-transform"
                           title={badge.name}
                         >
-                          {asset && (
-                            <img
-                              src={asset}
-                              alt={badge.name}
-                              className="w-4 h-4 object-contain filter drop-shadow"
-                            />
-                          )}
+                          <SafeBadgeIcon badge={badge} className="w-4 h-4 object-contain filter drop-shadow" fallbackSize="w-3.5 h-3.5 text-[#5865f2]" />
                         </div>
                       );
                     })

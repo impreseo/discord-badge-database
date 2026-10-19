@@ -10,6 +10,7 @@ interface BadgeDetailModalProps {
 export const BadgeDetailModal: React.FC<BadgeDetailModalProps> = ({ badge, onClose }) => {
   if (!badge) return null;
 
+  const [imgError, setImgError] = React.useState(false);
   const assetPath = badge.current_asset_id ? `/${badge.current_asset_id.replace(/^\//, "")}` : null;
 
   return (
@@ -28,12 +29,15 @@ export const BadgeDetailModal: React.FC<BadgeDetailModalProps> = ({ badge, onClo
         <div className="sticky top-0 z-10 flex items-center justify-between px-6 py-4 bg-[#121622]/95 backdrop-blur border-b border-[#1f2638]">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-[#182030] flex items-center justify-center p-2 shrink-0">
-              {assetPath && (
+              {assetPath && !imgError ? (
                 <img
                   src={assetPath}
                   alt={badge.name}
+                  onError={() => setImgError(true)}
                   className="w-full h-full object-contain filter drop-shadow"
                 />
+              ) : (
+                <Shield className="w-5 h-5 text-[#5865f2]" />
               )}
             </div>
             <div>
@@ -64,12 +68,15 @@ export const BadgeDetailModal: React.FC<BadgeDetailModalProps> = ({ badge, onClo
           {/* Main Visual & Key Stats */}
           <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start p-4 bg-[#181f2f] rounded-xl border border-[#232c40]">
             <div className="w-24 h-24 rounded-2xl bg-[#0f131c] flex items-center justify-center p-3 shrink-0 shadow-inner">
-              {assetPath && (
+              {assetPath && !imgError ? (
                 <img
                   src={assetPath}
                   alt={badge.name}
+                  onError={() => setImgError(true)}
                   className="w-full h-full object-contain filter drop-shadow-md"
                 />
+              ) : (
+                <Shield className="w-10 h-10 text-[#5865f2]" />
               )}
             </div>
 
